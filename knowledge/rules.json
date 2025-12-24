@@ -1,0 +1,879 @@
+{
+  "hard_rules": [
+    {
+      "rule_id": "R001",
+      "rule_name": "Prerequisite Check",
+      "description": "Sinh viên phải hoàn thành tất cả môn tiên quyết trước khi đăng ký môn học",
+      "description_en": "Student must complete all prerequisites before registering for a course",
+      "condition": "all(course.prerequisites) in student.completed_courses",
+      "action": "allow_registration",
+      "priority": 1
+    },
+    {
+      "rule_id": "R002",
+      "rule_name": "English Course Year Constraint",
+      "description": "Anh văn 1 phải học năm 1, Anh văn 2 năm 2, Anh văn 3 năm 3",
+      "description_en": "AV1 must be taken in Year 1, AV2 in Year 2, AV3 in Year 3",
+      "courses": {
+        "ENG01": {
+          "max_year": 1
+        },
+        "ENG02": {
+          "max_year": 2
+        },
+        "ENG03": {
+          "max_year": 3
+        }
+      },
+      "priority": 1
+    },
+    {
+      "rule_id": "R003",
+      "rule_name": "Military Education Fixed Semester",
+      "description": "Giáo dục quốc phòng phải học ở HK1 năm 1",
+      "description_en": "ME must be taken in HK1 Year 1",
+      "courses": {
+        "ME001": {
+          "year": 1,
+          "semester": "HK1"
+        }
+      },
+      "priority": 1
+    },
+    {
+      "rule_id": "R004",
+      "rule_name": "Physical Education Semester Constraint",
+      "description": "Thể dục 1 chỉ mở ở HK1, Thể dục 2 chỉ mở ở HK2",
+      "description_en": "PE1 only in HK1, PE2 only in HK2",
+      "courses": {
+        "PE231": {
+          "semester": "HK1"
+        },
+        "PE232": {
+          "semester": "HK2"
+        }
+      },
+      "priority": 1
+    },
+    {
+      "rule_id": "R005",
+      "rule_name": "Credit Limit",
+      "description": "Sinh viên đăng ký tối thiểu 14 và tối đa 24 tín chỉ mỗi học kỳ",
+      "description_en": "Student can register minimum 14 and maximum 24 credits per semester",
+      "min_credits": 14,
+      "max_credits": 24,
+      "priority": 1
+    },
+    {
+      "rule_id": "R006",
+      "rule_name": "Course Retake Priority",
+      "description": "Môn rớt là tiên quyết của môn khác phải được ưu tiên học lại trước",
+      "description_en": "Failed courses that are prerequisites for other courses must be retaken first",
+      "priority": 1,
+      "action": "prioritize_failed_prerequisites"
+    },
+    {
+      "rule_id": "R007",
+      "rule_name": "Compulsory Before Elective",
+      "description": "Ưu tiên đăng ký môn bắt buộc trước các môn tự chọn theo kế hoạch giảng dạy",
+      "description_en": "Prioritize filling semester with compulsory courses before electives, following teaching plan",
+      "priority": 2,
+      "action": "prioritize_compulsory_courses"
+    },
+    {
+      "rule_id": "R008",
+      "rule_name": "Teaching Plan Adherence",
+      "description": "Gợi ý môn học theo kế hoạch giảng dạy của từng khóa/ngành cho học kỳ hiện tại",
+      "description_en": "Recommend courses according to the teaching plan for current semester",
+      "priority": 2,
+      "action": "follow_teaching_plan"
+    },
+    {
+      "rule_id": "R009",
+      "rule_name": "Graduation Option Flexibility",
+      "description": "Sinh viên có thể chọn bất kỳ hình thức tốt nghiệp nào (Khóa luận/Đồ án DN/Chuyên đề) theo sở thích",
+      "description_en": "Student can choose any graduation option (Khóa luận/Đồ án DN/Chuyên đề) based on personal preference",
+      "priority": 3,
+      "action": "allow_flexible_graduation_choice"
+    }
+  ],
+  "soft_rules": [
+    {
+      "rule_id": "F001",
+      "rule_name": "Skip Failed Elective With Alternative",
+      "description": "Bỏ qua môn rớt nếu các môn trong nhóm tự chọn thay thế đã hoàn thành hoặc đang học",
+      "description_en": "Skip failed elective course if alternative courses in the same elective slot are completed or in-progress",
+      "priority": 2,
+      "action": "skip_failed_if_alternative_done"
+    },
+    {
+      "rule_id": "F002",
+      "rule_name": "Top N Elective Selection",
+      "description": "Chỉ lấy Top 3 môn tự chọn có điểm gợi ý cao nhất để hiển thị",
+      "description_en": "Only select Top 3 elective courses with highest recommendation scores",
+      "top_n": 3,
+      "priority": 3,
+      "action": "limit_elective_recommendations"
+    }
+  ],
+  "recommendation_rules": [
+    {
+      "rule_id": "S001",
+      "rule_name": "Interest Match Score",
+      "description": "Tính điểm sở thích dựa trên lĩnh vực kiến thức của môn học khớp với sở thích sinh viên",
+      "description_en": "Calculate interest score based on overlap between course knowledge areas and student interests",
+      "weight": 0.55,
+      "calculation": "intersection(course.knowledge_area, student.interests) / len(student.interests)"
+    },
+    {
+      "rule_id": "S002",
+      "rule_name": "Difficulty Fit Score",
+      "description": "Tính độ phù hợp độ khó dựa trên năng lực học tập suy diễn từ các môn đã học",
+      "description_en": "Calculate difficulty fit based on inferred academic readiness from completed courses",
+      "weight": 0.25,
+      "calculation": "1 - abs(course.difficulty_score - student.academic_readiness) / max_difficulty"
+    },
+    {
+      "rule_id": "S003",
+      "rule_name": "Time Availability Fit Score",
+      "description": "Tính độ phù hợp thời gian dựa trên mức độ sẵn sàng học tập của sinh viên",
+      "description_en": "Calculate time fit based on student's declared time availability",
+      "weight": 0.20,
+      "calculation": "time_availability_score based on course.credits and student.time_availability"
+    },
+    {
+      "rule_id": "S004",
+      "rule_name": "Combined Recommendation Score",
+      "description": "Điểm gợi ý = α×Interest + β×Difficulty + γ×Time (α=0.55, β=0.25, γ=0.20)",
+      "description_en": "Final score = α×Interest + β×Difficulty + γ×Time (α=0.55, β=0.25, γ=0.20)",
+      "formula": "alpha * interest_match + beta * difficulty_fit + gamma * time_fit"
+    }
+  ],
+  "inference_rules": [
+    {
+      "rule_id": "I001",
+      "rule_name": "Programming Level Inference",
+      "description": "Suy diễn trình độ lập trình từ các môn đã hoàn thành: IT001(cấp 1), IT002(cấp 2), CS116(cấp 3)",
+      "description_en": "Infer programming level from completed programming courses",
+      "courses": {
+        "IT001": 1,
+        "IT002": 2,
+        "CS116": 3
+      }
+    },
+    {
+      "rule_id": "I002",
+      "rule_name": "Computational Thinking Inference",
+      "description": "Suy diễn tư duy tính toán từ các môn thuật toán và toán: IT003(cấp 1), CS112(cấp 2), MA006(cấp 1)",
+      "description_en": "Infer computational thinking from algorithm and math courses",
+      "courses": {
+        "IT003": 1,
+        "CS112": 2,
+        "MA006": 1
+      }
+    },
+    {
+      "rule_id": "I003",
+      "rule_name": "Academic Readiness Inference",
+      "description": "Tính độ sẵn sàng học tập = Trung bình(Programming, Thinking) + Bonus theo năm học",
+      "description_en": "Overall academic readiness based on GPA and progress",
+      "formula": "average(programming_level, computational_thinking) + year_progress_bonus"
+    }
+  ],
+  "difficulty_weights": {
+    "w1_prerequisite": 1.0,
+    "w2_year": 1.0,
+    "w3_group": 1.0,
+    "group_weights": {
+      "General": 1,
+      "Core": 2,
+      "Major": 3
+    }
+  },
+  "recommendation_weights": {
+    "alpha_interest": 0.55,
+    "beta_difficulty": 0.25,
+    "gamma_time": 0.20
+  },
+  "graduation_requirements": {
+    "KHMT_K2020": {
+      "total_credits": 126,
+      "categories": {
+        "dai_cuong": {
+          "name": "Đại cương",
+          "total": 45,
+          "subcategories": {
+            "chinh_tri_phap_luat": {
+              "name": "Lý luận chính trị và pháp luật",
+              "credits": 13,
+              "courses": [
+                "SS003",
+                "SS004",
+                "SS006",
+                "SS007",
+                "SS008",
+                "SS009",
+                "SS010"
+              ]
+            },
+            "toan_tin_khtn": {
+              "name": "Toán - Tin học - Khoa học tự nhiên",
+              "credits": 18,
+              "courses": [
+                "MA003",
+                "MA004",
+                "MA005",
+                "MA006",
+                "CS115"
+              ]
+            },
+            "ngoai_ngu": {
+              "name": "Ngoại ngữ",
+              "credits": 12,
+              "courses": [
+                "ENG01",
+                "ENG02",
+                "ENG03"
+              ]
+            },
+            "ky_nang": {
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "courses": [
+                "SS004"
+              ]
+            }
+          }
+        },
+        "co_so_nganh": {
+          "name": "Cơ sở ngành",
+          "min_credits": 45,
+          "compulsory": {
+            "courses": [
+              "IT001",
+              "IT002",
+              "IT003",
+              "IT004",
+              "IT005",
+              "IT007",
+              "IT012",
+              "CS005",
+              "CS112"
+            ],
+            "credits": 33
+          },
+          "elective_programming": {
+            "name": "Lập trình (tự chọn 2 môn, 8 TC)",
+            "min_courses": 2,
+            "min_credits": 8,
+            "options": [
+              "IT008",
+              "IT009",
+              "IT013",
+              "IT014"
+            ]
+          },
+          "elective_algorithm": {
+            "name": "Thuật toán (tự chọn 1 môn, 4 TC)",
+            "min_courses": 1,
+            "min_credits": 4,
+            "options": [
+              "CS117",
+              "CS523"
+            ]
+          }
+        },
+        "chuyen_nganh": {
+          "name": "Chuyên ngành",
+          "min_credits": 16,
+          "min_courses": 4,
+          "groups": {
+            "tri_thuc_suy_luan": {
+              "name": "Tri thức và Suy luận",
+              "courses": [
+                "CS217",
+                "CS214",
+                "CS211",
+                "CS315",
+                "CS410",
+                "CS106",
+                "CS114"
+              ]
+            },
+            "nlp": {
+              "name": "Xử lý ngôn ngữ tự nhiên",
+              "courses": [
+                "CS221",
+                "CS229",
+                "CS226",
+                "CS321",
+                "CS329",
+                "CS224",
+                "CS220"
+              ]
+            },
+            "multimedia": {
+              "name": "Đa phương tiện",
+              "courses": [
+                "CS232",
+                "CS336",
+                "CS334",
+                "CS332",
+                "CS432"
+              ]
+            },
+            "computer_vision": {
+              "name": "Thị giác máy tính",
+              "courses": [
+                "CS231",
+                "CS331",
+                "CS338",
+                "CS431",
+                "CS339",
+                "CS434"
+              ]
+            }
+          }
+        },
+        "tu_chon_tu_do": {
+          "name": "Tự chọn tự do",
+          "min_credits": 10,
+          "description": "Chọn các môn từ bất kỳ ngành nào trong khoa"
+        },
+        "tot_nghiep": {
+          "name": "Tốt nghiệp",
+          "credits": 10,
+          "options": [
+            {
+              "type": "khoa_luan",
+              "course_id": "CS505",
+              "credits": 10
+            },
+            {
+              "type": "do_an_doanh_nghiep",
+              "course_id": "CS554",
+              "credits": 10
+            },
+            {
+              "type": "chuyen_de",
+              "course_id": "CS553",
+              "credits": 6,
+              "requires_additional": 4
+            }
+          ]
+        }
+      }
+    },
+    "TTNT_K2020": {
+      "total_credits": 128,
+      "categories": {
+        "dai_cuong": {
+          "name": "Đại cương",
+          "total": 45,
+          "subcategories": {
+            "chinh_tri_phap_luat": {
+              "name": "Lý luận chính trị và pháp luật",
+              "credits": 13,
+              "courses": [
+                "SS003",
+                "SS004",
+                "SS006",
+                "SS007",
+                "SS008",
+                "SS009",
+                "SS010"
+              ]
+            },
+            "toan_tin_khtn": {
+              "name": "Toán - Tin học - Khoa học tự nhiên",
+              "credits": 18,
+              "courses": [
+                "MA003",
+                "MA004",
+                "MA005",
+                "MA006",
+                "CS115"
+              ]
+            },
+            "ngoai_ngu": {
+              "name": "Ngoại ngữ",
+              "credits": 12,
+              "courses": [
+                "ENG01",
+                "ENG02",
+                "ENG03"
+              ]
+            },
+            "ky_nang": {
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "courses": [
+                "SS004"
+              ]
+            }
+          }
+        },
+        "co_so_nganh": {
+          "name": "Cơ sở ngành",
+          "min_credits": 57,
+          "compulsory": {
+            "courses": [
+              "IT001",
+              "IT002",
+              "IT003",
+              "IT004",
+              "IT005",
+              "IT007",
+              "IT012",
+              "CS005",
+              "CS112",
+              "CS106",
+              "CS114",
+              "AI002"
+            ],
+            "credits": 45
+          },
+          "elective_programming": {
+            "name": "Lập trình (tự chọn 2 môn, 8 TC)",
+            "min_courses": 2,
+            "min_credits": 8,
+            "options": [
+              "IT008",
+              "IT009",
+              "IT013",
+              "IT014"
+            ]
+          }
+        },
+        "chuyen_nganh": {
+          "name": "Chuyên ngành TTNT",
+          "min_credits": 8,
+          "min_courses": 2,
+          "courses": [
+            "CS211",
+            "CS315",
+            "CS221",
+            "CS231",
+            "CS217",
+            "CS214"
+          ]
+        },
+        "tu_chon_lien_nganh": {
+          "name": "Tự chọn liên ngành",
+          "min_credits": 8,
+          "description": "Chọn từ các ngành: Khoa học dữ liệu, Công nghệ phần mềm, Hệ thống thông tin, An toàn thông tin, Mạng máy tính",
+          "allowed_prefixes": [
+            "DS",
+            "SE",
+            "IS",
+            "NT",
+            "CS"
+          ]
+        },
+        "tot_nghiep": {
+          "name": "Tốt nghiệp",
+          "credits": 10,
+          "options": [
+            {
+              "type": "khoa_luan",
+              "course_id": "AI505",
+              "credits": 10
+            },
+            {
+              "type": "do_an_doanh_nghiep",
+              "course_id": "AI504",
+              "credits": 10
+            },
+            {
+              "type": "do_an",
+              "course_id": "AI503",
+              "credits": 6,
+              "requires_additional": 4
+            }
+          ]
+        }
+      }
+    },
+    "KHMT_K2023": {
+      "total_credits": 126,
+      "categories": {
+        "dai_cuong": {
+          "name": "Đại cương",
+          "total": 45,
+          "subcategories": {
+            "chinh_tri_phap_luat": {
+              "name": "Lý luận chính trị và pháp luật",
+              "credits": 13,
+              "courses": [
+                "SS003",
+                "SS004",
+                "SS006",
+                "SS007",
+                "SS008",
+                "SS009",
+                "SS010"
+              ]
+            },
+            "toan_tin_khtn": {
+              "name": "Toán - Tin học - Khoa học tự nhiên",
+              "credits": 18,
+              "courses": [
+                "MA003",
+                "MA004",
+                "MA005",
+                "MA006",
+                "CS115"
+              ]
+            },
+            "ngoai_ngu": {
+              "name": "Ngoại ngữ",
+              "credits": 12,
+              "courses": [
+                "ENG01",
+                "ENG02",
+                "ENG03"
+              ]
+            },
+            "ky_nang": {
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "courses": [
+                "SS004"
+              ]
+            }
+          }
+        },
+        "co_so_nganh": {
+          "name": "Cơ sở ngành",
+          "min_credits": 45,
+          "compulsory": {
+            "courses": [
+              "IT001",
+              "IT002",
+              "IT003",
+              "IT004",
+              "IT005",
+              "IT007",
+              "IT012",
+              "CS005",
+              "CS112"
+            ],
+            "credits": 33
+          },
+          "elective_programming": {
+            "name": "Lập trình (tự chọn 2 môn, 8 TC)",
+            "min_courses": 2,
+            "min_credits": 8,
+            "options": [
+              "IT008",
+              "IT009",
+              "IT013",
+              "IT014"
+            ]
+          },
+          "elective_algorithm": {
+            "name": "Thuật toán (tự chọn 1 môn, 4 TC)",
+            "min_courses": 1,
+            "min_credits": 4,
+            "options": [
+              "CS117",
+              "CS523"
+            ]
+          }
+        },
+        "chuyen_nganh": {
+          "name": "Chuyên ngành",
+          "min_credits": 16,
+          "min_courses": 4,
+          "groups": {
+            "tri_thuc_suy_luan": {
+              "name": "Tri thức và Suy luận",
+              "courses": [
+                "CS217",
+                "CS214",
+                "CS211",
+                "CS315",
+                "CS410",
+                "CS106",
+                "CS114"
+              ]
+            },
+            "nlp": {
+              "name": "Xử lý ngôn ngữ tự nhiên",
+              "courses": [
+                "CS221",
+                "CS229",
+                "CS226",
+                "CS321",
+                "CS329",
+                "CS224",
+                "CS220"
+              ]
+            },
+            "multimedia": {
+              "name": "Đa phương tiện",
+              "courses": [
+                "CS232",
+                "CS336",
+                "CS334",
+                "CS332",
+                "CS432"
+              ]
+            },
+            "computer_vision": {
+              "name": "Thị giác máy tính",
+              "courses": [
+                "CS231",
+                "CS331",
+                "CS338",
+                "CS431",
+                "CS339",
+                "CS434"
+              ]
+            }
+          }
+        },
+        "tu_chon_tu_do": {
+          "name": "Tự chọn tự do",
+          "min_credits": 10,
+          "description": "Chọn các môn từ bất kỳ ngành nào trong khoa"
+        },
+        "tot_nghiep": {
+          "name": "Tốt nghiệp",
+          "credits": 10,
+          "options": [
+            {
+              "type": "khoa_luan",
+              "course_id": "CS505",
+              "credits": 10
+            },
+            {
+              "type": "do_an_doanh_nghiep",
+              "course_id": "CS554",
+              "credits": 10
+            },
+            {
+              "type": "chuyen_de",
+              "course_id": "CS553",
+              "credits": 6,
+              "requires_additional": 4
+            }
+          ]
+        }
+      }
+    },
+    "TTNT_K2023": {
+      "total_credits": 128,
+      "categories": {
+        "dai_cuong": {
+          "name": "Đại cương",
+          "total": 45,
+          "subcategories": {
+            "chinh_tri_phap_luat": {
+              "name": "Lý luận chính trị và pháp luật",
+              "credits": 13,
+              "courses": [
+                "SS003",
+                "SS004",
+                "SS006",
+                "SS007",
+                "SS008",
+                "SS009",
+                "SS010"
+              ]
+            },
+            "toan_tin_khtn": {
+              "name": "Toán - Tin học - Khoa học tự nhiên",
+              "credits": 18,
+              "courses": [
+                "MA003",
+                "MA004",
+                "MA005",
+                "MA006",
+                "CS115"
+              ]
+            },
+            "ngoai_ngu": {
+              "name": "Ngoại ngữ",
+              "credits": 12,
+              "courses": [
+                "ENG01",
+                "ENG02",
+                "ENG03"
+              ]
+            },
+            "ky_nang": {
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "courses": [
+                "SS004"
+              ]
+            }
+          }
+        },
+        "co_so_nganh": {
+          "name": "Cơ sở ngành",
+          "min_credits": 57,
+          "compulsory": {
+            "courses": [
+              "IT001",
+              "IT002",
+              "IT003",
+              "IT004",
+              "IT007",
+              "IT012",
+              "CS005",
+              "CS112",
+              "CS106",
+              "CS114",
+              "AI002"
+            ],
+            "credits": 44
+          },
+          "elective_programming": {
+            "name": "Lập trình (tự chọn 2 môn, 8 TC)",
+            "min_courses": 2,
+            "min_credits": 8,
+            "options": [
+              "IT008",
+              "IT009",
+              "IT013",
+              "IT014"
+            ]
+          }
+        },
+        "chuyen_nganh": {
+          "name": "Chuyên ngành TTNT",
+          "min_credits": 8,
+          "min_courses": 2,
+          "courses": [
+            "CS211",
+            "CS315",
+            "CS221",
+            "CS231",
+            "CS217",
+            "CS214"
+          ]
+        },
+        "tu_chon_lien_nganh": {
+          "name": "Tự chọn liên ngành",
+          "min_credits": 8,
+          "description": "Chọn từ các ngành: Khoa học dữ liệu, Công nghệ phần mềm, Hệ thống thông tin, An toàn thông tin, Mạng máy tính",
+          "allowed_prefixes": [
+            "DS",
+            "SE",
+            "IS",
+            "NT",
+            "CS"
+          ]
+        },
+        "tot_nghiep": {
+          "name": "Tốt nghiệp",
+          "credits": 10,
+          "options": [
+            {
+              "type": "khoa_luan",
+              "course_id": "AI505",
+              "credits": 10
+            },
+            {
+              "type": "do_an_doanh_nghiep",
+              "course_id": "AI504",
+              "credits": 10
+            },
+            {
+              "type": "do_an",
+              "course_id": "AI503",
+              "credits": 6,
+              "requires_additional": 4
+            }
+          ]
+        }
+      }
+    }
+  },
+  "semester_recommendation_rules": [
+    {
+      "rule_id": "SR001",
+      "rule_name": "Year 1 Core Foundation",
+      "description": "Focus on math, programming fundamentals, and general education in Year 1",
+      "year": 1,
+      "recommended_categories": [
+        "dai_cuong",
+        "lap_trinh_co_ban",
+        "toan"
+      ],
+      "max_difficulty": 2
+    },
+    {
+      "rule_id": "SR002",
+      "rule_name": "Year 2 Computer Science Core",
+      "description": "Focus on core CS courses and algorithm design in Year 2",
+      "year": 2,
+      "recommended_categories": [
+        "co_so_nganh",
+        "thuat_toan"
+      ],
+      "prerequisites_required": true
+    },
+    {
+      "rule_id": "SR003",
+      "rule_name": "Year 3 Specialization",
+      "description": "Focus on specialization courses and electives in Year 3",
+      "year": 3,
+      "recommended_categories": [
+        "chuyen_nganh",
+        "tu_chon_tu_do"
+      ],
+      "min_completed_credits": 60
+    },
+    {
+      "rule_id": "SR004",
+      "rule_name": "Year 4 Graduation Preparation",
+      "description": "Focus on advanced courses and graduation project in Year 4",
+      "year": 4,
+      "recommended_categories": [
+        "chuyen_nganh_nang_cao",
+        "tot_nghiep"
+      ],
+      "min_completed_credits": 100
+    }
+  ],
+  "graduation_check_rules": [
+    {
+      "rule_id": "GC001",
+      "rule_name": "Total Credit Check",
+      "description": "Check if student has accumulated enough total credits",
+      "condition": "student.total_credits >= program.total_credits",
+      "message_fail": "Chưa đủ tổng số tín chỉ yêu cầu"
+    },
+    {
+      "rule_id": "GC002",
+      "rule_name": "Category Credit Check",
+      "description": "Check if student has enough credits in each category",
+      "condition": "all(category.earned >= category.required for category in categories)",
+      "message_fail": "Chưa đủ tín chỉ trong một số khối kiến thức"
+    },
+    {
+      "rule_id": "GC003",
+      "rule_name": "Compulsory Course Check",
+      "description": "Check if all compulsory courses are completed",
+      "condition": "all(course in student.completed for course in compulsory_courses)",
+      "message_fail": "Chưa hoàn thành một số môn bắt buộc"
+    },
+    {
+      "rule_id": "GC004",
+      "rule_name": "Specialization Course Check",
+      "description": "Check if enough specialization courses are completed",
+      "condition": "student.specialization_credits >= program.min_specialization_credits",
+      "message_fail": "Chưa đủ tín chỉ chuyên ngành"
+    },
+    {
+      "rule_id": "GC005",
+      "rule_name": "Graduation Project Check",
+      "description": "Check if graduation requirement is met",
+      "condition": "student.has_graduation_project or (student.has_thesis_substitute and student.thesis_substitute_credits >= 10)",
+      "message_fail": "Chưa hoàn thành đồ án/khóa luận tốt nghiệp"
+    }
+  ]
+}

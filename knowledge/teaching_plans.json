@@ -1,0 +1,2879 @@
+{
+  "metadata": {
+    "source": "Thu thập Tri thức - Môn học KHMT, TTNT UIT.docx",
+    "extracted_date": "2024-12-21",
+    "description": "Teaching plans and graduation requirements for KHMT and TTNT majors at UIT"
+  },
+  "cohort_mappings": {
+    "K18": {
+      "enrollment_year": 2023,
+      "curriculum": "K2023",
+      "description": "CTĐT 2023 - Áp dụng cho khóa 18 (2023)"
+    },
+    "K19": {
+      "enrollment_year": 2024,
+      "curriculum": "K2024",
+      "description": "CTĐT 2024 - Áp dụng cho khóa 19 (2024)"
+    },
+    "K20": {
+      "enrollment_year": 2025,
+      "curriculum": "K2024",
+      "description": "CTĐT 2024 - Áp dụng cho khóa 19, 20"
+    }
+  },
+  "teaching_plans": {
+    "KHMT_K2023": {
+      "major": "KHMT",
+      "curriculum_year": "K2023",
+      "semesters": {
+        "1": {
+          "courses": [
+            {
+              "id": "IT001",
+              "name": "Nhập môn Lập trình",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA006",
+              "name": "Giải tích",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA003",
+              "name": "Đại số tuyến tính",
+              "credits": 3,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS005",
+              "name": "Giới thiệu ngành Khoa học Máy tính",
+              "credits": 1,
+              "type": "compulsory"
+            },
+            {
+              "id": "ME001",
+              "name": "Giáo dục quốc phòng",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 16
+        },
+        "2": {
+          "courses": [
+            {
+              "id": "IT002",
+              "name": "Lập trình hướng đối tượng",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT003",
+              "name": "Cấu trúc dữ liệu và giải thuật",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT012",
+              "name": "Tổ chức và cấu trúc máy tính II",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA004",
+              "name": "Cấu trúc rời rạc",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA005",
+              "name": "Xác suất thống kê",
+              "credits": 3,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 23
+        },
+        "3": {
+          "courses": [
+            {
+              "id": "IT004",
+              "name": "Cơ sở dữ liệu",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT005",
+              "name": "Nhập môn mạng máy tính",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT007",
+              "name": "Hệ điều hành",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS115",
+              "name": "Toán cho KHMT",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS007",
+              "name": "Triết học Mác – Lênin",
+              "credits": 3,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 23
+        },
+        "4": {
+          "courses": [
+            {
+              "id": "CS112",
+              "name": "Phân tích và thiết kế thuật toán",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS004",
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS008",
+              "name": "Kinh tế chính trị Mác – Lênin",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "PE231",
+              "name": "Giáo dục thể chất 1",
+              "credits": 0,
+              "type": "compulsory"
+            },
+            {
+              "elective_slot": "Môn cơ sở ngành-Lập trình (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "SE104",
+                "CS111"
+              ]
+            },
+            {
+              "elective_slot": "Môn cơ sở ngành-Thuật toán (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS117",
+                "CS523"
+              ]
+            },
+            {
+              "elective_slot": "Môn chuyên ngành 1 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            }
+          ],
+          "total_credits": 20
+        },
+        "5": {
+          "courses": [
+            {
+              "id": "SS009",
+              "name": "Chủ nghĩa xã hội khoa học",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS010",
+              "name": "Lịch sử Đảng Cộng sản Việt Nam",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "PE232",
+              "name": "Giáo dục thể chất 2",
+              "credits": 0,
+              "type": "compulsory"
+            },
+            {
+              "elective_slot": "Môn cơ sở ngành-Lập trình 2 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS526",
+                "CS311",
+                "CS116"
+              ]
+            },
+            {
+              "elective_slot": "Môn chuyên ngành 2 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn tự chọn tự do 1 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS519",
+                "CS529",
+                "CS551",
+                "CS332",
+                "CS333",
+                "CS527",
+                "CS528",
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn tự chọn tự do 2 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS519",
+                "CS529",
+                "CS551",
+                "CS332",
+                "CS333",
+                "CS527",
+                "CS528",
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            }
+          ],
+          "total_credits": 20
+        },
+        "6": {
+          "courses": [
+            {
+              "id": "SS003",
+              "name": "Tư tưởng Hồ Chí Minh",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS006",
+              "name": "Pháp luật đại cương",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "elective_slot": "Môn chuyên ngành 3 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn chuyên ngành 4 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn tự chọn tự do 3 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS519",
+                "CS529",
+                "CS551",
+                "CS332",
+                "CS333",
+                "CS527",
+                "CS528",
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn tự chọn tự do 4 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS519",
+                "CS529",
+                "CS551",
+                "CS332",
+                "CS333",
+                "CS527",
+                "CS528",
+                "CS336",
+                "CS106",
+                "CS232",
+                "CS532",
+                "CS338",
+                "CS316",
+                "CS217",
+                "CS114",
+                "CS229",
+                "CS535",
+                "CS221",
+                "CS231",
+                "CS321",
+                "CS105",
+                "CS325",
+                "CS214",
+                "CS313",
+                "CS226",
+                "CS323",
+                "CS211",
+                "CS222",
+                "CS314",
+                "CS312",
+                "CS331",
+                "CS324",
+                "CS315",
+                "CS337"
+              ]
+            }
+          ],
+          "total_credits": 20
+        },
+        "7": {
+          "courses": [
+            {
+              "id": "-",
+              "name": "Các môn học chuyên đề tốt nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS505",
+              "name": "Khóa luận tốt nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 10
+        }
+      }
+    },
+    "TTNT_K2023": {
+      "major": "TTNT",
+      "curriculum_year": "K2023",
+      "semesters": {
+        "1": {
+          "courses": [
+            {
+              "id": "IT001",
+              "name": "Nhập môn Lập trình",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA006",
+              "name": "Giải tích",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA003",
+              "name": "Đại số tuyến tính",
+              "credits": 3,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS005",
+              "name": "Giới thiệu ngành Trí tuệ nhân tạo",
+              "credits": 1,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS004",
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "ME001",
+              "name": "Giáo dục quốc phòng",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 18
+        },
+        "2": {
+          "courses": [
+            {
+              "id": "IT002",
+              "name": "Lập trình hướng đối tượng",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT003",
+              "name": "Cấu trúc dữ liệu và giải thuật",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT012",
+              "name": "Tổ chức và cấu trúc máy tính II",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA004",
+              "name": "Cấu trúc rời rạc",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA005",
+              "name": "Xác suất thống kê",
+              "credits": 3,
+              "type": "compulsory"
+            },
+            {
+              "id": "PE012",
+              "name": "Giáo dục thể chất",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 23
+        },
+        "3": {
+          "courses": [
+            {
+              "id": "IT004",
+              "name": "Cơ sở dữ liệu",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT005",
+              "name": "Nhập môn mạng máy tính",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT007",
+              "name": "Hệ điều hành",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS115",
+              "name": "Toán cho KHMT",
+              "credits": 4,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 20
+        },
+        "4": {
+          "courses": [
+            {
+              "id": "CS112",
+              "name": "Phân tích và thiết kế thuật toán",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS106",
+              "name": "Trí tuệ nhân tạo",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS114",
+              "name": "Máy học",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS007",
+              "name": "Triết học Mác – Lênin",
+              "credits": 3,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS008",
+              "name": "Kinh tế chính trị Mác – Lênin",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "elective_slot": "Môn cơ sở ngành-Lập trình (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "SE104",
+                "CS111",
+                "CS311",
+                "CS116"
+              ]
+            }
+          ],
+          "total_credits": 21
+        },
+        "5": {
+          "courses": [
+            {
+              "id": "AI002",
+              "name": "Tư duy Trí tuệ nhân tạo",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS009",
+              "name": "Chủ nghĩa xã hội khoa học",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS010",
+              "name": "Lịch sử Đảng Cộng sản Việt Nam",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "elective_slot": "Môn cơ sở ngành-Lập trình 2 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS526",
+                "CS311",
+                "CS116"
+              ]
+            },
+            {
+              "elective_slot": "Môn tự chọn ngành 1 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS211",
+                "CS315",
+                "CS410",
+                "CS431",
+                "CS217",
+                "CS316",
+                "CS312",
+                "CS229",
+                "CS226",
+                "CS222",
+                "CS323",
+                "CS321",
+                "CS325",
+                "CS331",
+                "CS532",
+                "CS338",
+                "CS313",
+                "CS336",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn tự chọn liên ngành 1 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "DS102",
+                "DS103",
+                "DS200",
+                "DS201",
+                "CE340",
+                "CE344",
+                "IS211",
+                "IS403",
+                "SE113",
+                "SE357",
+                "SE358",
+                "NT538",
+                "NT539"
+              ]
+            }
+          ],
+          "total_credits": 20
+        },
+        "6": {
+          "courses": [
+            {
+              "id": "SS003",
+              "name": "Tư tưởng Hồ Chí Minh",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS006",
+              "name": "Pháp luật đại cương",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "elective_slot": "Môn chuyên ngành 2 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS211",
+                "CS315",
+                "CS410",
+                "CS431",
+                "CS217",
+                "CS316",
+                "CS312",
+                "CS229",
+                "CS226",
+                "CS222",
+                "CS323",
+                "CS321",
+                "CS325",
+                "CS331",
+                "CS532",
+                "CS338",
+                "CS313",
+                "CS336",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn chuyên ngành 3 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "CS211",
+                "CS315",
+                "CS410",
+                "CS431",
+                "CS217",
+                "CS316",
+                "CS312",
+                "CS229",
+                "CS226",
+                "CS222",
+                "CS323",
+                "CS321",
+                "CS325",
+                "CS331",
+                "CS532",
+                "CS338",
+                "CS313",
+                "CS336",
+                "CS337"
+              ]
+            },
+            {
+              "elective_slot": "Môn tự chọn liên ngành 2 (chọn 1)",
+              "credits": 4,
+              "type": "elective",
+              "choices": [
+                "DS102",
+                "DS103",
+                "DS200",
+                "DS201",
+                "CE340",
+                "CE344",
+                "IS211",
+                "IS403",
+                "SE113",
+                "SE357",
+                "SE358",
+                "NT538",
+                "NT539"
+              ]
+            }
+          ],
+          "total_credits": 16
+        },
+        "7": {
+          "courses": [
+            {
+              "id": "-",
+              "name": "Các môn học chuyên đề tốt nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            },
+            {
+              "id": "AI505",
+              "name": "Khóa luận tốt nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 10
+        }
+      }
+    },
+    "KHMT_K2024": {
+      "major": "KHMT",
+      "curriculum_year": "K2024",
+      "semesters": {
+        "1": {
+          "courses": [
+            {
+              "id": "IT001",
+              "name": "Nhập môn Lập trình",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA006",
+              "name": "Giải tích",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA003",
+              "name": "Đại số tuyến tính",
+              "credits": 3,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS005",
+              "name": "Giới thiệu ngành Khoa học Máy tính",
+              "credits": 1,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS006",
+              "name": "Pháp luật đại cương",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "ME001",
+              "name": "Giáo dục quốc phòng",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 18
+        },
+        "2": {
+          "courses": [
+            {
+              "id": "IT002",
+              "name": "Lập trình hướng đối tượng",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT003",
+              "name": "Cấu trúc dữ liệu và giải thuật",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT012",
+              "name": "Tổ chức và cấu trúc máy tính II",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA004",
+              "name": "Cấu trúc rời rạc",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA005",
+              "name": "Xác suất thống kê",
+              "credits": 3,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 23
+        },
+        "3": {
+          "courses": [
+            {
+              "id": "IT004",
+              "name": "Cơ sở dữ liệu",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT005",
+              "name": "Nhập môn mạng máy tính",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT007",
+              "name": "Hệ điều hành",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS115",
+              "name": "Toán cho KHMT",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS007",
+              "name": "Triết học Mác – Lênin",
+              "credits": 3,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 23
+        },
+        "4": {
+          "courses": [
+            {
+              "id": "CS112",
+              "name": "Phân tích và thiết kế thuật toán",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn cơ sở ngành-Lập trình: tự chọn",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn cơ sở ngành-Thuật toán: tự chọn",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn chuyên ngành 1",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": "SS004",
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS008",
+              "name": "Kinh tế chính trị Mác – Lênin",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "PE231",
+              "name": "Giáo dục thể chất 1",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 20
+        },
+        "5": {
+          "courses": [
+            {
+              "id": null,
+              "placeholder": "Môn cơ sở ngành-Lập trình 2: tự chọn",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn chuyên ngành 2",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Các môn học tự chọn tự do",
+              "credits": 8,
+              "type": "elective"
+            },
+            {
+              "id": "SS009",
+              "name": "Chủ nghĩa xã hội khoa học",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS010",
+              "name": "Lịch sử Đảng Cộng sản Việt Nam",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "PE232",
+              "name": "Giáo dục thể chất 2",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 20
+        },
+        "6": {
+          "courses": [
+            {
+              "id": null,
+              "placeholder": "Môn chuyên ngành 3",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn chuyên ngành 4",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Các môn học tự chọn tự do",
+              "credits": 8,
+              "type": "elective"
+            },
+            {
+              "id": "SS003",
+              "name": "Tư tưởng Hồ Chí Minh",
+              "credits": 2,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 20
+        },
+        "7": {
+          "courses": [
+            {
+              "id": "-",
+              "name": "Đồ án tốt nghiệp (CS553) + Môn chuyên đề",
+              "credits": 10,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS554",
+              "name": "Đồ án tốt nghiệp tại doanh nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS505",
+              "name": "Khóa luận tốt nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 10
+        }
+      }
+    },
+    "TTNT_K2024": {
+      "major": "TTNT",
+      "curriculum_year": "K2024",
+      "semesters": {
+        "1": {
+          "courses": [
+            {
+              "id": "IT001",
+              "name": "Nhập môn Lập trình",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA006",
+              "name": "Giải tích",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA003",
+              "name": "Đại số tuyến tính",
+              "credits": 3,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS005",
+              "name": "Giới thiệu ngành Trí tuệ nhân tạo",
+              "credits": 1,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS004",
+              "name": "Kỹ năng nghề nghiệp",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS006",
+              "name": "Pháp luật đại cương",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "ME001",
+              "name": "Giáo dục quốc phòng",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 20
+        },
+        "2": {
+          "courses": [
+            {
+              "id": "IT002",
+              "name": "Lập trình hướng đối tượng",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT003",
+              "name": "Cấu trúc dữ liệu và giải thuật",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT012",
+              "name": "Tổ chức và cấu trúc máy tính II",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA004",
+              "name": "Cấu trúc rời rạc",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "MA005",
+              "name": "Xác suất thống kê",
+              "credits": 3,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 23
+        },
+        "3": {
+          "courses": [
+            {
+              "id": "IT004",
+              "name": "Cơ sở dữ liệu",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "IT007",
+              "name": "Hệ điều hành",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "AI002",
+              "name": "Tư duy Trí tuệ nhân tạo",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS115",
+              "name": "Toán cho KHMT",
+              "credits": 4,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 20
+        },
+        "4": {
+          "courses": [
+            {
+              "id": "IT005",
+              "name": "Nhập môn mạng máy tính",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS112",
+              "name": "Phân tích và thiết kế thuật toán",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS106",
+              "name": "Trí tuệ nhân tạo",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "CS114",
+              "name": "Máy học",
+              "credits": 4,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS007",
+              "name": "Triết học Mác – Lênin",
+              "credits": 3,
+              "type": "compulsory"
+            },
+            {
+              "id": "PE231",
+              "name": "Giáo dục thể chất 1",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 19
+        },
+        "5": {
+          "courses": [
+            {
+              "id": null,
+              "placeholder": "Môn cơ sở ngành-Lập trình 1: tự chọn",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn cơ sở ngành-Lập trình 2: tự chọn",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn tự chọn ngành 1",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": "SS009",
+              "name": "Chủ nghĩa xã hội khoa học",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "SS010",
+              "name": "Lịch sử Đảng Cộng sản Việt Nam",
+              "credits": 2,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 20
+        },
+        "6": {
+          "courses": [
+            {
+              "id": null,
+              "placeholder": "Môn chuyên ngành 2",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn chuyên ngành 3",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": null,
+              "placeholder": "Môn học tự chọn liên ngành 2",
+              "credits": 4,
+              "type": "elective"
+            },
+            {
+              "id": "SS003",
+              "name": "Tư tưởng Hồ Chí Minh",
+              "credits": 2,
+              "type": "compulsory"
+            },
+            {
+              "id": "PE232",
+              "name": "Giáo dục thể chất 2",
+              "credits": 0,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 16
+        },
+        "7": {
+          "courses": [
+            {
+              "id": "AI505",
+              "name": "Khóa luận tốt nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            },
+            {
+              "id": "AI504",
+              "name": "Đồ án thực tập tại doanh nghiệp",
+              "credits": 10,
+              "type": "compulsory"
+            },
+            {
+              "id": "AI503",
+              "name": "Đồ án tốt nghiệp",
+              "credits": 6,
+              "type": "compulsory"
+            },
+            {
+              "id": "-",
+              "name": "Một trong các môn học chuyên đề tốt nghiệp",
+              "credits": 4,
+              "type": "compulsory"
+            }
+          ],
+          "total_credits": 10
+        }
+      }
+    }
+  },
+  "graduation_requirements": {
+    "KHMT_K2023": {
+      "major": "KHMT",
+      "curriculum_year": "K2020",
+      "total_credits": 126,
+      "categories": {
+        "dai_cuong": {
+          "total": 0,
+          "subcategories": {
+            "chinh_tri_phap_luat": 13,
+            "toan_tin_khtn": 18,
+            "ngoai_ngu": 12,
+            "ky_nang_nghe_nghiep": 2
+          }
+        },
+        "chuyen_nganh": {
+          "total": 0,
+          "subcategories": {
+            "co_so_nganh": 45,
+            "chuyen_nganh": 16,
+            "tu_chon_tu_do": 10
+          }
+        },
+        "tot_nghiep": {
+          "credits": 10
+        }
+      }
+    },
+    "TTNT_K2023": {
+      "major": "TTNT",
+      "curriculum_year": "K2020",
+      "total_credits": 128,
+      "categories": {
+        "dai_cuong": {
+          "total": 0,
+          "subcategories": {
+            "chinh_tri_phap_luat": 13,
+            "toan_tin_khtn": 18,
+            "ngoai_ngu": 12,
+            "ky_nang_nghe_nghiep": 2
+          }
+        },
+        "chuyen_nganh": {
+          "total": 0,
+          "subcategories": {
+            "co_so_nganh": 57,
+            "chuyen_nganh": 8,
+            "tu_chon_lien_nganh": 8
+          }
+        },
+        "tot_nghiep": {
+          "credits": 10
+        }
+      }
+    },
+    "KHMT_K2024": {
+      "major": "KHMT",
+      "curriculum_year": "K2023",
+      "total_credits": 126,
+      "categories": {
+        "dai_cuong": {
+          "total": 0,
+          "subcategories": {
+            "chinh_tri_phap_luat": 13,
+            "toan_tin_khtn": 18,
+            "ngoai_ngu": 12,
+            "ky_nang_nghe_nghiep": 2
+          }
+        },
+        "chuyen_nganh": {
+          "total": 0,
+          "subcategories": {
+            "co_so_nganh": 45,
+            "chuyen_nganh": 16,
+            "tu_chon_tu_do": 10
+          }
+        },
+        "tot_nghiep": {
+          "credits": 10
+        }
+      }
+    },
+    "TTNT_K2024": {
+      "major": "TTNT",
+      "curriculum_year": "K2023",
+      "total_credits": 128,
+      "categories": {
+        "dai_cuong": {
+          "total": 0,
+          "subcategories": {
+            "chinh_tri_phap_luat": 13,
+            "toan_tin_khtn": 18,
+            "ngoai_ngu": 12,
+            "ky_nang_nghe_nghiep": 2
+          }
+        },
+        "chuyen_nganh": {
+          "total": 0,
+          "subcategories": {
+            "co_so_nganh": 57,
+            "chuyen_nganh": 8,
+            "tu_chon_lien_nganh": 8
+          }
+        },
+        "tot_nghiep": {
+          "credits": 10
+        }
+      }
+    }
+  },
+  "course_categories": {
+    "dai_cuong": {
+      "name": "Đại cương",
+      "name_en": "General Education",
+      "subcategories": {
+        "chinh_tri_phap_luat": {
+          "name": "Lý luận chính trị và pháp luật",
+          "courses": [
+            "SS003",
+            "SS006",
+            "SS007",
+            "SS008",
+            "SS009",
+            "SS010",
+            "PE231",
+            "PE232",
+            "ME001",
+            "SS004",
+            "PE012"
+          ]
+        },
+        "toan_tin_khtn": {
+          "name": "Toán - Tin học - Khoa học tự nhiên",
+          "courses": [
+            "MA003",
+            "MA004",
+            "MA005",
+            "MA006"
+          ]
+        },
+        "ngoai_ngu": {
+          "name": "Ngoại ngữ",
+          "courses": []
+        },
+        "ky_nang": {
+          "name": "Kỹ năng nghề nghiệp",
+          "courses": []
+        }
+      }
+    },
+    "co_so_nganh": {
+      "name": "Cơ sở ngành",
+      "name_en": "Core Foundation",
+      "subcategories": {
+        "lap_trinh": {
+          "name": "Lập trình và Kỹ thuật phần mềm",
+          "courses": []
+        },
+        "thuat_toan": {
+          "name": "Thuật toán và Toán học",
+          "courses": []
+        },
+        "he_thong": {
+          "name": "Hệ thống máy tính",
+          "courses": []
+        }
+      }
+    },
+    "chuyen_nganh": {
+      "name": "Chuyên ngành",
+      "name_en": "Major Specialization",
+      "groups": {}
+    },
+    "tot_nghiep": {
+      "name": "Tốt nghiệp",
+      "name_en": "Graduation",
+      "options": []
+    }
+  },
+  "specialization_courses": {
+    "KHMT": {
+      "tri_thuc_suy_luan": {
+        "name": "Tri thức và Suy luận",
+        "name_en": "Knowledge and Reasoning",
+        "courses": [
+          {
+            "id": "CS217",
+            "name": "Các hệ cơ sở tri thức",
+            "credits": 4
+          },
+          {
+            "id": "CS214",
+            "name": "Biểu diễn tri thức và suy luận",
+            "credits": 4
+          },
+          {
+            "id": "CS211",
+            "name": "Trí tuệ nhân tạo nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS312",
+            "name": "Hệ thống đa tác tử",
+            "credits": 4
+          },
+          {
+            "id": "CS313",
+            "name": "Khai thác dữ liệu và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS314",
+            "name": "Lập trình symbolic trong trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS315",
+            "name": "Máy học nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS316",
+            "name": "Các hệ giải bài toán thông minh",
+            "credits": 4
+          },
+          {
+            "id": "CS106",
+            "name": "Trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS114",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS221",
+            "name": "Xử lý ngôn ngữ tự nhiên",
+            "credits": 4
+          },
+          {
+            "id": "CS229",
+            "name": "Ngữ nghĩa học tính toán",
+            "credits": 4
+          },
+          {
+            "id": "CS226",
+            "name": "Ngôn ngữ học máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS222",
+            "name": "Xử lý ngôn ngữ tự nhiên nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS323",
+            "name": "Các hệ thống hỏi-đáp",
+            "credits": 4
+          },
+          {
+            "id": "CS324",
+            "name": "Máy học trong xử lý ngôn ngữ tự nhiên",
+            "credits": 4
+          },
+          {
+            "id": "CS321",
+            "name": "Ngôn ngữ học ngữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "CS325",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS231",
+            "name": "Nhập môn Thị giác máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS105",
+            "name": "Đồ họa máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS331",
+            "name": "Thị giác máy tính nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS532",
+            "name": "Thị giác máy tính trong tương tác người – máy",
+            "credits": 4
+          },
+          {
+            "id": "CS338",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS333",
+            "name": "Đồ họa game",
+            "credits": 3
+          },
+          {
+            "id": "CS336",
+            "name": "Truy vấn thông tin đa phương tiện",
+            "credits": 4
+          },
+          {
+            "id": "CS337",
+            "name": "Xử lý âm thanh và tiếng nói",
+            "credits": 4
+          },
+          {
+            "id": "CS535",
+            "name": "Tổng hợp tiếng nói",
+            "credits": 4
+          },
+          {
+            "id": "CS232",
+            "name": "Tính toán Đa phương tiện",
+            "credits": 4
+          },
+          {
+            "id": "IT001",
+            "name": "Nhập môn lập trình",
+            "credits": 4
+          },
+          {
+            "id": "IT002",
+            "name": "Lập trình hướng đối tượng",
+            "credits": 4
+          },
+          {
+            "id": "SE104",
+            "name": "Nhập môn Công nghệ phần mềm",
+            "credits": 4
+          },
+          {
+            "id": "CS111",
+            "name": "Nguyên lý và phương pháp lập trình",
+            "credits": 4
+          },
+          {
+            "id": "CS311",
+            "name": "Kỹ thuật lập trình Trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS116",
+            "name": "Lập trình Python cho Máy học",
+            "credits": 4
+          },
+          {
+            "id": "IT003",
+            "name": "Cấu trúc dữ liệu và giải thuật",
+            "credits": 4
+          },
+          {
+            "id": "CS112",
+            "name": "Phân tích và thiết kế thuật toán",
+            "credits": 4
+          },
+          {
+            "id": "IT012",
+            "name": "Tổ chức và cấu trúc máy tính II",
+            "credits": 4
+          },
+          {
+            "id": "IT007",
+            "name": "Hệ điều hành",
+            "credits": 4
+          },
+          {
+            "id": "IT005",
+            "name": "Nhập môn mạng máy tính",
+            "credits": 4
+          },
+          {
+            "id": "IT004",
+            "name": "Cơ sở dữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "AI002",
+            "name": "Tư duy Trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "AI001",
+            "name": "Giới thiệu ngành Trí tuệ nhân tạo",
+            "credits": 1
+          },
+          {
+            "id": "CS317",
+            "name": "Phát triển và vận hành hệ thống máy học",
+            "credits": 4
+          }
+        ]
+      },
+      "nlp": {
+        "name": "Xử lý ngôn ngữ tự nhiên",
+        "name_en": "Natural Language Processing",
+        "courses": [
+          {
+            "id": "CS221",
+            "name": "Xử lý ngôn ngữ tự nhiên",
+            "credits": 4
+          },
+          {
+            "id": "CS229",
+            "name": "Ngữ nghĩa học tính toán",
+            "credits": 4
+          },
+          {
+            "id": "CS226",
+            "name": "Ngôn ngữ học máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS222",
+            "name": "Xử lý ngôn ngữ tự nhiên nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS324",
+            "name": "Máy học trong xử lý ngôn ngữ tự nhiên",
+            "credits": 4
+          },
+          {
+            "id": "CS323",
+            "name": "Các hệ thống hỏi-đáp",
+            "credits": 4
+          },
+          {
+            "id": "CS321",
+            "name": "Ngôn ngữ học ngữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "CS325",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS114",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS211",
+            "name": "Trí tuệ nhân tạo nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS315",
+            "name": "Máy học nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS410",
+            "name": "Mạng Neural và Thuật giải di truyền",
+            "credits": 4
+          },
+          {
+            "id": "CS431",
+            "name": "Các kĩ thuật học sâu và ứng dụng",
+            "credits": 3
+          },
+          {
+            "id": "CS217",
+            "name": "Các hệ cơ sở tri thức",
+            "credits": 4
+          },
+          {
+            "id": "CS316",
+            "name": "Các hệ giải bài toán thông minh",
+            "credits": 4
+          },
+          {
+            "id": "CS312",
+            "name": "Hệ thống đa tác tử",
+            "credits": 4
+          },
+          {
+            "id": "CS331",
+            "name": "Thị giác máy tính nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS532",
+            "name": "Thị giác máy tính trong tương tác người – máy",
+            "credits": 4
+          },
+          {
+            "id": "CS338",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS313",
+            "name": "Khai thác dữ liệu và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS336",
+            "name": "Truy vấn thông tin đa phương tiện",
+            "credits": 4
+          },
+          {
+            "id": "CS337",
+            "name": "Xử lý âm thanh và tiếng nói",
+            "credits": 4
+          },
+          {
+            "id": "CS535",
+            "name": "Tổng hợp tiếng nói",
+            "credits": 4
+          },
+          {
+            "id": "AI301",
+            "name": "Khởi nghiệp và sáng tạo",
+            "credits": 2
+          },
+          {
+            "id": "AI302",
+            "name": "Kỹ thuật viết báo cáo và trình bày",
+            "credits": 2
+          },
+          {
+            "id": "CS317",
+            "name": "Phát triển và vận hành hệ thống máy học",
+            "credits": 4
+          }
+        ]
+      },
+      "multimedia": {
+        "name": "Đa phương tiện",
+        "name_en": "Multimedia Computing",
+        "courses": [
+          {
+            "id": "CS115",
+            "name": "Toán cho KHMT",
+            "credits": 4
+          },
+          {
+            "id": "IT002",
+            "name": "Lập trình hướng đối tượng",
+            "credits": 4
+          },
+          {
+            "id": "SE104",
+            "name": "Nhập môn Công nghệ phần mềm",
+            "credits": 4
+          },
+          {
+            "id": "CS111",
+            "name": "Nguyên lý và phương pháp lập trình",
+            "credits": 4
+          },
+          {
+            "id": "CS526",
+            "name": "Phát triển ứng dụng đa phương tiện trên thiết bị di động",
+            "credits": 4
+          },
+          {
+            "id": "CS311",
+            "name": "Kỹ thuật lập trình Trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS116",
+            "name": "Lập trình Python cho Máy học",
+            "credits": 4
+          },
+          {
+            "id": "IT003",
+            "name": "Cấu trúc dữ liệu và giải thuật",
+            "credits": 4
+          },
+          {
+            "id": "CS112",
+            "name": "Phân tích và thiết kế thuật toán",
+            "credits": 4
+          },
+          {
+            "id": "CS117",
+            "name": "Tư duy tính toán",
+            "credits": 4
+          },
+          {
+            "id": "CS523",
+            "name": "Cấu trúc dữ liệu và giải thuật nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "IT012",
+            "name": "Tổ chức và cấu trúc máy tính II",
+            "credits": 4
+          },
+          {
+            "id": "IT007",
+            "name": "Hệ điều hành",
+            "credits": 4
+          },
+          {
+            "id": "IT005",
+            "name": "Nhập môn mạng máy tính",
+            "credits": 4
+          },
+          {
+            "id": "IT004",
+            "name": "Cơ sở dữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "CS005",
+            "name": "Giới thiệu ngành Khoa học Máy tính",
+            "credits": 1
+          },
+          {
+            "id": "CS232",
+            "name": "Tính toán Đa phương tiện",
+            "credits": 4
+          },
+          {
+            "id": "CS336",
+            "name": "Truy vấn thông tin đa phương tiện",
+            "credits": 4
+          },
+          {
+            "id": "CS313",
+            "name": "Khai thác dữ liệu và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS337",
+            "name": "Xử lý âm thanh và tiếng nói",
+            "credits": 4
+          },
+          {
+            "id": "CS535",
+            "name": "Tổng hợp tiếng nói",
+            "credits": 4
+          },
+          {
+            "id": "AI001",
+            "name": "Giới thiệu ngành Trí tuệ nhân tạo",
+            "credits": 1
+          },
+          {
+            "id": "AI002",
+            "name": "Tư duy Trí tuệ nhân tạo",
+            "credits": 2
+          },
+          {
+            "id": "AI301",
+            "name": "Khởi nghiệp và sáng tạo",
+            "credits": 3
+          },
+          {
+            "id": "AI302",
+            "name": "Kỹ thuật viết báo cáo và trình bày",
+            "credits": 4
+          },
+          {
+            "id": "CE340",
+            "name": "Trí tuệ nhân tạo cho hệ thống nhúng",
+            "credits": 5
+          },
+          {
+            "id": "CE344",
+            "name": "Trí tuệ nhân tạo cho IoT",
+            "credits": 6
+          },
+          {
+            "id": "CS105",
+            "name": "Đồ họa máy tính",
+            "credits": 8
+          },
+          {
+            "id": "CS114",
+            "name": "Môn học cung cấp một số kiến thức cơ bản về Máy học. Nội dun",
+            "credits": 4
+          },
+          {
+            "id": "IT001",
+            "name": "Toán cho Khoa học máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS106",
+            "name": "Trí tuệ nhân tạo nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS214",
+            "name": "Biểu diễn tri thức và suy luận",
+            "credits": 4
+          },
+          {
+            "id": "CS217",
+            "name": "Các hệ cơ sở tri thức",
+            "credits": 4
+          },
+          {
+            "id": "CS221",
+            "name": "Xử lý ngôn ngữ tự nhiên",
+            "credits": 4
+          },
+          {
+            "id": "CS226",
+            "name": "Ngôn ngữ học máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS231",
+            "name": "Nhập môn Thị giác máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS110",
+            "name": "Hệ thống đa tác tử",
+            "credits": 4
+          },
+          {
+            "id": "CS314",
+            "name": "Lập trình symbolic trong trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS316",
+            "name": "Các hệ giải bài toán thông minh",
+            "credits": 4
+          },
+          {
+            "id": "CS332",
+            "name": "Máy học trong Thị giác Máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS333",
+            "name": "Đồ họa game",
+            "credits": 4
+          },
+          {
+            "id": "CS338",
+            "name": "Môn này cung cấp khối kiến thức cơ bản trong lĩnh vực Nhận d",
+            "credits": 4
+          },
+          {
+            "id": "CS405",
+            "name": "Logic mờ và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS406",
+            "name": "Xử lý ảnh và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS409",
+            "name": "Hệ suy diễn mờ",
+            "credits": 4
+          },
+          {
+            "id": "CS431",
+            "name": "Các kĩ thuật học sâu và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS505",
+            "name": "Khoá luận tốt nghiệp",
+            "credits": 4
+          },
+          {
+            "id": "CS519",
+            "name": "Phương pháp luận nghiên cứu khoa học",
+            "credits": 4
+          },
+          {
+            "id": "CS527",
+            "name": "Thực tại ảo",
+            "credits": 4
+          },
+          {
+            "id": "CS528",
+            "name": "Trực quan hóa thông tin",
+            "credits": 4
+          },
+          {
+            "id": "CS529",
+            "name": "Các vấn đề nghiên cứu và ứng dụng trong khoa học máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS532",
+            "name": "Thị giác máy tính trong tương tác người-máy",
+            "credits": 4
+          },
+          {
+            "id": "CS551",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS553",
+            "name": "Đồ án tốt nghiệp",
+            "credits": 4
+          },
+          {
+            "id": "CS554",
+            "name": "Đồ án tốt nghiệp tại doanh nghiệp",
+            "credits": 4
+          },
+          {
+            "id": "DS102",
+            "name": "Học máy thống kê",
+            "credits": 4
+          },
+          {
+            "id": "DS103",
+            "name": "Thu thập và tiền xử lý dữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "DS200",
+            "name": "Phân tích dữ liệu lớn",
+            "credits": 4
+          },
+          {
+            "id": "IS211",
+            "name": "Cơ sở dữ liệu phân tán",
+            "credits": 4
+          },
+          {
+            "id": "IS403",
+            "name": "Phân tích dữ liệu kinh doanh",
+            "credits": 4
+          },
+          {
+            "id": "MA003",
+            "name": "Đại số tuyến tính",
+            "credits": 4
+          },
+          {
+            "id": "MA004",
+            "name": "Cấu trúc rời rạc",
+            "credits": 4
+          },
+          {
+            "id": "MA006",
+            "name": "Xác suất thống kê",
+            "credits": 4
+          },
+          {
+            "id": "ME001",
+            "name": "Giáo dục quốc phòng",
+            "credits": 4
+          },
+          {
+            "id": "PE231",
+            "name": "Giáo dục thể chất 1",
+            "credits": 4
+          },
+          {
+            "id": "SS003",
+            "name": "Tư tưởng Hồ Chí Minh",
+            "credits": 4
+          },
+          {
+            "id": "SS004",
+            "name": "Kỹ năng nghề nghiệp",
+            "credits": 4
+          },
+          {
+            "id": "SS006",
+            "name": "Pháp luật đại cương",
+            "credits": 4
+          },
+          {
+            "id": "SS007",
+            "name": "Triết học Mác – Lênin",
+            "credits": 4
+          },
+          {
+            "id": "SS008",
+            "name": "Kinh tế chính trị Mác – Lênin",
+            "credits": 4
+          },
+          {
+            "id": "SS009",
+            "name": "Chủ nghĩa xã hội khoa học",
+            "credits": 4
+          },
+          {
+            "id": "SS010",
+            "name": "Lịch sử Đảng Cộng sản Việt Nam",
+            "credits": 4
+          }
+        ]
+      },
+      "computer_vision": {
+        "name": "Thị giác máy tính",
+        "name_en": "Computer Vision",
+        "courses": [
+          {
+            "id": "CS231",
+            "name": "Nhập môn Thị giác máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS331",
+            "name": "Thị giác máy tính nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS338",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS532",
+            "name": "Thị giác máy tính trong tương tác người – máy",
+            "credits": 4
+          },
+          {
+            "id": "CS114",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS105",
+            "name": "Đồ họa máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS519",
+            "name": "Phương pháp luận nghiên cứu khoa học",
+            "credits": 3
+          },
+          {
+            "id": "CS529",
+            "name": "Các vấn đề nghiên cứu và ứng dụng trong Khoa học Máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS332",
+            "name": "Máy học trong Thị giác máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS333",
+            "name": "Đồ họa game",
+            "credits": 3
+          },
+          {
+            "id": "CS527",
+            "name": "Thực tại ảo",
+            "credits": 4
+          },
+          {
+            "id": "CS528",
+            "name": "Trực quan hóa thông tin",
+            "credits": 4
+          },
+          {
+            "id": "CS409",
+            "name": "Hệ suy diễn mờ",
+            "credits": 4
+          },
+          {
+            "id": "CS405",
+            "name": "Logic mờ và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS406",
+            "name": "Xử lý ảnh và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS410",
+            "name": "Mạng Neural và Thuật giải di truyền",
+            "credits": 4
+          },
+          {
+            "id": "CS419",
+            "name": "Truy xuất thông tin",
+            "credits": 4
+          },
+          {
+            "id": "CS412",
+            "name": "Web ngữ nghĩa",
+            "credits": 4
+          },
+          {
+            "id": "CS420",
+            "name": "Các vấn đề chọn lọc trong Thị giác máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS431",
+            "name": "Các kĩ thuật học sâu và ứng dụng",
+            "credits": 3
+          },
+          {
+            "id": "CS505",
+            "name": "Khóa luận tốt nghiệp",
+            "credits": 10
+          },
+          {
+            "id": "CS554",
+            "name": "Đồ án tốt nghiệp tại doanh nghiệp",
+            "credits": 10
+          },
+          {
+            "id": "CS553",
+            "name": "Đồ án tốt nghiệp",
+            "credits": 6
+          }
+        ]
+      },
+      "research": {
+        "name": "Nghiên cứu khoa học",
+        "name_en": "Scientific Research",
+        "courses": [
+          {
+            "id": "DS102",
+            "name": "Học máy thống kê",
+            "credits": 4
+          },
+          {
+            "id": "DS103",
+            "name": "Thu thập và tiền xử lý dữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "DS200",
+            "name": "Phân tích dữ liệu lớn",
+            "credits": 4
+          },
+          {
+            "id": "DS201",
+            "name": "Deep Learning trong khoa học dữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "CE340",
+            "name": "Trí tuệ nhân tạo cho hệ thống nhúng",
+            "credits": 4
+          },
+          {
+            "id": "CE344",
+            "name": "Trí tuệ nhân tạo cho IoT",
+            "credits": 4
+          },
+          {
+            "id": "IS211",
+            "name": "Cơ sở dữ liệu phân tán",
+            "credits": 4
+          },
+          {
+            "id": "IS403",
+            "name": "Phân tích dữ liệu kinh doanh",
+            "credits": 3
+          },
+          {
+            "id": "SE113",
+            "name": "Kiểm chứng phần mềm",
+            "credits": 4
+          },
+          {
+            "id": "SE357",
+            "name": "Kỹ thuật phân tích yêu cầu",
+            "credits": 3
+          },
+          {
+            "id": "SE358",
+            "name": "Quản lý dự án phát triển phần mềm",
+            "credits": 4
+          },
+          {
+            "id": "NT538",
+            "name": "Giải thuật xử lý song song và phân bố",
+            "credits": 3
+          },
+          {
+            "id": "NT539",
+            "name": "AI ứng dụng trong mạng và truyền thông",
+            "credits": 4
+          },
+          {
+            "id": "CS519",
+            "name": "Phương pháp luận nghiên cứu khoa học",
+            "credits": 3
+          },
+          {
+            "id": "CS529",
+            "name": "Các vấn đề nghiên cứu và ứng dụng trong khoa học máy tính",
+            "credits": 4
+          },
+          {
+            "id": "CS333",
+            "name": "Đồ họa game",
+            "credits": 3
+          },
+          {
+            "id": "CS527",
+            "name": "Thực tại ảo",
+            "credits": 4
+          },
+          {
+            "id": "CS523",
+            "name": "Cấu trúc dữ liệu và giải thuật nâng cao",
+            "credits": 4
+          }
+        ]
+      },
+      "advanced": {
+        "name": "Nâng cao",
+        "name_en": "Advanced Topics",
+        "courses": [
+          {
+            "id": "CS409",
+            "name": "Hệ suy diễn mờ",
+            "credits": 4
+          },
+          {
+            "id": "CS405",
+            "name": "Logic mờ và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS406",
+            "name": "Xử lý ảnh và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS419",
+            "name": "Truy xuất thông tin",
+            "credits": 4
+          },
+          {
+            "id": "CS412",
+            "name": "Web ngữ nghĩa",
+            "credits": 4
+          },
+          {
+            "id": "AI505",
+            "name": "Khóa luận tốt nghiệp",
+            "credits": 10
+          },
+          {
+            "id": "AI504",
+            "name": "Đồ án tốt nghiệp tại doanh nghiệp",
+            "credits": 10
+          },
+          {
+            "id": "AI503",
+            "name": "Đồ án tốt nghiệp",
+            "credits": 6
+          }
+        ]
+      }
+    },
+    "TTNT": {
+      "core": {
+        "name": "Môn chuyên ngành TTNT",
+        "name_en": "AI Core Courses",
+        "courses": [
+          {
+            "id": "CS106",
+            "name": "Trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS114",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "CS211",
+            "name": "Trí tuệ nhân tạo nâng cao",
+            "credits": 4
+          },
+          {
+            "id": "CS313",
+            "name": "Khai thác dữ liệu và ứng dụng",
+            "credits": 4
+          },
+          {
+            "id": "CS314",
+            "name": "Lập trình symbolic trong trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS315",
+            "name": "Máy học nâng cao",
+            "credits": 4
+          }
+        ]
+      },
+      "cross_major": {
+        "name": "Tự chọn liên ngành",
+        "name_en": "Cross-major Electives",
+        "courses": [
+          {
+            "id": "IT001",
+            "name": "Nhập môn Lập trình",
+            "credits": 4
+          },
+          {
+            "id": "MA006",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "MA003",
+            "name": "Đại số tuyến tính",
+            "credits": 3
+          },
+          {
+            "id": "CS005",
+            "name": "Giới thiệu ngành Trí tuệ nhân tạo",
+            "credits": 1
+          },
+          {
+            "id": "SS004",
+            "name": "Kỹ năng nghề nghiệp",
+            "credits": 2
+          },
+          {
+            "id": "ME001",
+            "name": "Giáo dục quốc phòng",
+            "credits": 4
+          },
+          {
+            "id": "IT002",
+            "name": "Lập trình hướng đối tượng",
+            "credits": 4
+          },
+          {
+            "id": "IT003",
+            "name": "Cấu trúc dữ liệu và giải thuật",
+            "credits": 4
+          },
+          {
+            "id": "IT012",
+            "name": "Tổ chức và cấu trúc máy tính II",
+            "credits": 4
+          },
+          {
+            "id": "MA004",
+            "name": "Cấu trúc rời rạc",
+            "credits": 4
+          },
+          {
+            "id": "MA005",
+            "name": "Xác suất thống kê",
+            "credits": 3
+          },
+          {
+            "id": "PE012",
+            "name": "Giáo dục thể chất",
+            "credits": 4
+          },
+          {
+            "id": "IT004",
+            "name": "Cơ sở dữ liệu",
+            "credits": 4
+          },
+          {
+            "id": "IT005",
+            "name": "Nhập môn mạng máy tính",
+            "credits": 4
+          },
+          {
+            "id": "IT007",
+            "name": "Hệ điều hành",
+            "credits": 4
+          },
+          {
+            "id": "CS115",
+            "name": "Toán cho KHMT",
+            "credits": 4
+          },
+          {
+            "id": "CS112",
+            "name": "Phân tích và thiết kế thuật toán",
+            "credits": 4
+          },
+          {
+            "id": "CS106",
+            "name": "Trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "CS114",
+            "name": "",
+            "credits": 4
+          },
+          {
+            "id": "SS007",
+            "name": "Triết học Mác – Lênin",
+            "credits": 3
+          },
+          {
+            "id": "SS008",
+            "name": "Kinh tế chính trị Mác – Lênin",
+            "credits": 2
+          },
+          {
+            "id": "AI002",
+            "name": "Tư duy Trí tuệ nhân tạo",
+            "credits": 4
+          },
+          {
+            "id": "SS009",
+            "name": "Chủ nghĩa xã hội khoa học",
+            "credits": 2
+          },
+          {
+            "id": "SS010",
+            "name": "Lịch sử Đảng Cộng sản Việt Nam",
+            "credits": 2
+          },
+          {
+            "id": "SS003",
+            "name": "Tư tưởng Hồ Chí Minh",
+            "credits": 2
+          },
+          {
+            "id": "SS006",
+            "name": "Pháp luật đại cương",
+            "credits": 2
+          },
+          {
+            "id": "AI505",
+            "name": "Khóa luận tốt nghiệp",
+            "credits": 10
+          },
+          {
+            "id": "PE231",
+            "name": "Giáo dục thể chất 1",
+            "credits": 4
+          },
+          {
+            "id": "PE232",
+            "name": "Giáo dục thể chất 2",
+            "credits": 4
+          },
+          {
+            "id": "AI504",
+            "name": "Đồ án thực tập tại doanh nghiệp",
+            "credits": 10
+          },
+          {
+            "id": "AI503",
+            "name": "Đồ án tốt nghiệp",
+            "credits": 6
+          }
+        ]
+      }
+    }
+  },
+  "elective_groups": {
+    "co_so_nganh_lap_trinh": {
+      "name": "Cơ sở ngành - Lập trình (tự chọn)",
+      "options": [
+        {
+          "id": "IT008",
+          "name": "Lập trình trực quan",
+          "credits": 4
+        },
+        {
+          "id": "IT009",
+          "name": "Phát triển ứng dụng web",
+          "credits": 4
+        },
+        {
+          "id": "IT013",
+          "name": "Phát triển ứng dụng game",
+          "credits": 4
+        },
+        {
+          "id": "IT014",
+          "name": "Phát triển ứng dụng di động đa nền tảng",
+          "credits": 4
+        }
+      ]
+    },
+    "co_so_nganh_thuat_toan": {
+      "name": "Cơ sở ngành - Thuật toán (tự chọn)",
+      "options": [
+        {
+          "id": "CS117",
+          "name": "Lý thuyết đồ thị",
+          "credits": 4
+        },
+        {
+          "id": "CS523",
+          "name": "Lý thuyết tính toán",
+          "credits": 4
+        }
+      ]
+    }
+  },
+  "graduation_options": {
+    "KHMT": {
+      "options": [
+        {
+          "type": "khoa_luan",
+          "name": "Khóa luận tốt nghiệp",
+          "course_id": "CS505",
+          "credits": 10,
+          "description": "Thực hiện đề tài nghiên cứu dưới sự hướng dẫn của giảng viên"
+        },
+        {
+          "type": "do_an_doanh_nghiep",
+          "name": "Đồ án tốt nghiệp tại doanh nghiệp",
+          "course_id": "CS554",
+          "credits": 10,
+          "description": "Thực tập và thực hiện đồ án tại doanh nghiệp"
+        },
+        {
+          "type": "chuyen_de",
+          "name": "Chuyên đề tốt nghiệp",
+          "course_id": "CS553",
+          "credits": 10,
+          "description": "Thực hiện chuyên đề tốt nghiệp + 1 môn chuyên ngành bổ sung (4 TC)",
+          "requires_additional": true,
+          "additional_credits": 4
+        }
+      ]
+    },
+    "TTNT": {
+      "options": [
+        {
+          "type": "khoa_luan",
+          "name": "Khóa luận tốt nghiệp",
+          "course_id": "AI505",
+          "credits": 10,
+          "description": "Thực hiện đề tài nghiên cứu dưới sự hướng dẫn của giảng viên"
+        },
+        {
+          "type": "do_an_doanh_nghiep",
+          "name": "Đồ án thực tập tại doanh nghiệp",
+          "course_id": "AI504",
+          "credits": 10,
+          "description": "Thực tập và thực hiện đồ án tại doanh nghiệp"
+        },
+        {
+          "type": "do_an",
+          "name": "Đồ án tốt nghiệp + Một trong các môn học chuyên đề tốt nghiệp",
+          "course_id": "AI503",
+          "credits": 6,
+          "description": "Thực hiện đồ án tốt nghiệp + 1 môn chuyên ngành bổ sung (4 TC)",
+          "requires_additional": true,
+          "additional_credits": 4
+        }
+      ]
+    }
+  }
+}

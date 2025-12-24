@@ -1,0 +1,1724 @@
+{
+  "courses": [
+    {
+      "course_id": "AI001",
+      "course_name": "Giới thiệu ngành Trí tuệ nhân tạo",
+      "credits": 1,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "AI002",
+      "course_name": "Tư duy Trí tuệ nhân tạo",
+      "credits": 4,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "AI301",
+      "course_name": "Khởi nghiệp và sáng tạo",
+      "credits": 2,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "AI302",
+      "course_name": "Kỹ thuật viết báo cáo và trình bày",
+      "credits": 2,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "CE340",
+      "course_name": "Trí tuệ nhân tạo cho hệ thống nhúng",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Embedded Systems"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "CE344",
+      "course_name": "Trí tuệ nhân tạo cho IoT",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "IoT"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "CS005",
+      "course_name": "Giới thiệu ngành Khoa học Máy tính",
+      "credits": 1,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học cung cấp các kiến thức giới thiệu về ngành CNTT nói chung và Khoa học Máy tính. Trong đó cung cấp cho sinh viên thông tin và kiến thức nền tảng về ngành học, chương trình đào tạo, chuẩn đầu ra, cơ hội nghề nghiệp, mối liên hệ với các ngành khác…"
+    },
+    {
+      "course_id": "CS105",
+      "course_name": "Đồ họa máy tính",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này giới thiệu các nội dung căn bản trong lĩnh vực đồ hoạ máy tính bao gồm các kiến thức cơ bản về đồ hoạ 2D và 3D. Cụ thể là các nội dung vẽ hình, biến đổi, phép chiếu, cách hiển thị hình ảnh trên máy tính."
+    },
+    {
+      "course_id": "CS106",
+      "course_name": "Trí tuệ nhân tạo",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT003"
+      ],
+      "description": "Môn học cung cấp một số kiến thức cơ bản của khoa học Trí tuệ nhân tạo. Nội dung chính gồm: Lịch sử hình thành và phát triển của Trí tuệ nhân tạo, các hướng nghiên cứu và ứng dụng của Trí tuệ nhân tạo trong đời sống; Các phương pháp giải quyết vấn đề và các áp dụng, đặc biệt nhấn mạnh thuật giải heuristic và các chiến lược tìm kiếm; Một số phương pháp biểu diễn tri thức cơ bản và kỹ thuật suy diễn tự động."
+    },
+    {
+      "course_id": "CS111",
+      "course_name": "Nguyên lý và phương pháp lập trình",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT003"
+      ],
+      "description": "Môn học cung cấp cho sinh viên những kiến thức nền tảng về ngôn ngữ lập trình; nguyên lý, phương pháp và kỹ thuật xây dựng nên các ngôn ngữ lập trình, dòng ngôn ngữ lập trình dưới góc độ người thiết kế ngôn ngữ lập trình. Đồng thời cung cấp kiến thức giúp sinh viên hiểu rõ các cơ chế hoạt động, xử lý của các thành phần cấu thành nên một ngôn ngữ lập trình cụ thể, các mô thức lập trình và vấn đề chọn lựa mô thức lập trình phù hợp để giải quyết một cách hiệu quả các bài toán trên máy tính."
+    },
+    {
+      "course_id": "CS112",
+      "course_name": "Phân tích và thiết kế thuật toán",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT003"
+      ],
+      "description": "Môn học cung cấp một số kiến thức trong việc thiết kế các thuật toán và đánh giá độ phức tạp của chúng. Nội dung chính gồm: \no Tổng quan về thuật toán và độ phức tạp của thuật toán. \no Trình bày các cơ sở toán học cho việc đánh giá độ phức tạp của thuật toán và sử dụng các kiến thức toán sơ cấp để đánh giá thuật toán. \no Sử dụng hàm sinh, định lý Master trong việc đánh giá độ phức tạp các thuật toán \no Nhóm hoán vị và ứng dụng. \no Trình bày một số vấn đề mở rộng và nâng cao."
+    },
+    {
+      "course_id": "CS114",
+      "course_name": "Máy học",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT001",
+        "MA003",
+        "MA004"
+      ],
+      "description": "Môn học cung cấp một số kiến thức cơ bản về Máy học. Nội dung chính bao gồm: \no Giới thiệu tổng quan về máy học với các nội dung như máy học là gì, các khái niệm cơ bản, lịch sử hình thành và phát triển của Máy học, các hướng nghiên cứu và ứng dụng của Máy học trong đời sống, giới thiệu một số công cụ, công nghệ và các thách thức hiện nay; \no Những cách khác nhau dùng máy học để giải quyết vấn đề, một số bài toán tiêu biểu trong máy học như hồi quy, phân lớp, gom cụm cùng với các phương pháp cơ bản để giải quyết; \no Áp dụng các phương pháp và kỹ thuật máy học cơ bản để giải quyết một số bài toán trong thực tế."
+    },
+    {
+      "course_id": "CS115",
+      "course_name": "Toán cho Khoa học máy tính",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT001"
+      ],
+      "description": "Môn học cung cấp kiến thức Toán ứng dụng trong các lĩnh vực máy học, trí tuệ nhân tạo, khai phá dữ liệu và xử lý tín hiệu số."
+    },
+    {
+      "course_id": "CS116",
+      "course_name": "Lập trình Python cho Máy học",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Machine Learning",
+        "Mathematics",
+        "Programming"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT002"
+      ],
+      "description": "Môn học cung cấp cho sinh viên kiến thức và kĩ năng lập trình bằng ngôn ngữ Python, khai thác các công cụ, thư viện, nền tảng tính toán hiện đại dựa trên Python, nhằm phát triển và ứng dụng các phương pháp máy học (machine learning) một cách hiệu quả."
+    },
+    {
+      "course_id": "CS117",
+      "course_name": "Tư duy tính toán",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Algorithm",
+        "Logic",
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Môn học cung cấp kiến thức nền tảng và kĩ năng vận dụng cơ bản các phương pháp tư duy, suy luận logic trong giải quyết bài toán, bao gồm: tư duy thuật toán (algorithmic thinking), tư duy phân rã (decomposition), tư duy khái quát hóa (generalization), tư duy trừu tượng (abstraction), và tư duy đánh giá định lượng (evaluation)."
+    },
+    {
+      "course_id": "CS211",
+      "course_name": "Trí tuệ nhân tạo nâng cao",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics",
+        "Network"
+      ],
+      "prerequisites": [
+        "CS106"
+      ],
+      "description": "Môn học cung cấp một số kiến thức cơ bản của khoa học trí tuệ nhân tạo. Nội dung chính gồm: \no Phương pháp tiếp cận hiện đại cho việc biểu diễn tri thức sử dụng ontology. \no Tìm hiểu tổng quan về khái niệm tác tử và hệ thống đa tác tử \no Thiết kế thuật giải di truyền và các thuật toán trong mạng neural. \no Áp dụng xây dựng các ứng dụng thực tế."
+    },
+    {
+      "course_id": "CS214",
+      "course_name": "Biểu diễn tri thức và suy luận",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Cung cấp cho sinh viên các phương pháp biểu diễn tri thức và suy luận rộng hơn và sâu hơn, trong đó đặc biệt là phương pháp tiếp cận BDTT dựa trên các ontology, từ đó có thể tiếp cận để giải quyết các vấn đề thực tế. Vận dụng các phương pháp kĩ thuật trong một số các ứng dụng cụ thể."
+    },
+    {
+      "course_id": "CS217",
+      "course_name": "Các hệ cơ sở tri thức",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT002",
+        "IT003"
+      ],
+      "description": "Môn học cung cấp kiến thức về hệ cơ sở tri thức và hệ chuyên gia, phương pháp thiết kế và các ứng dụng. Nội dung chính gồm: \no Khái niệm, cấu trúc và quy trình xây dựng hệ thống. \no Phương pháp thiết kế các thành phần trung tâm của hệ thống là cơ sở tri thức và bộ suy diễn cùng các kỹ thuật liên quan khác. \no Thiết kế và xây ứng dụng cụ thể."
+    },
+    {
+      "course_id": "CS221",
+      "course_name": "Xử lý ngôn ngữ tự nhiên",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT001",
+        "MA003",
+        "MA004"
+      ],
+      "description": "Môn học nhằm cung cấp cho sinh viên một số kiến thức nhập môn của chuyên ngành xử lý ngôn ngữ tự nhiên, bao gồm những nội dung chính về: văn phạm phi ngữ cảnh CFG (Context-Free Grammar), văn phạm DCG (Definite Clause Grammar), cài đặt và giải thích cơ chế xử lý văn phạm DCG trên Prolog, FSA (Finite State Automata). Trên cơ sở những kiến thức nền tảng này sinh viên có thể học tiếp môn chuyên ngành tự chọn “Xử lý ngôn ngữ tự nhiên nâng cao”."
+    },
+    {
+      "course_id": "CS222",
+      "course_name": "Xử lý ngôn ngữ tự nhiên nâng cao",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "CS221"
+      ],
+      "description": "Nội dung môn học bao gồm những nội dung chính: Probabilistic Context-Free Grammar, Unification-Based Grammar, Lexicalized Probabilistic Context-Free Grammar,... \n- Đối với hệ Cử nhân Tài năng: Sinh viên được tăng cường các bài tập lý thuyết và bài tập thực hành nâng cao về các phương pháp và kỹ thuật xử lý cú pháp trên nhiều mô hình lý thuyết ngữ pháp."
+    },
+    {
+      "course_id": "CS226",
+      "course_name": "Ngôn ngữ học máy tính",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Môn học nhằm mục tiêu giảng dạy cho sinh viên những kiến thức nền tảng trong lĩnh vực Ngôn ngữ học máy tính, bao gồm các các mô hình và phương pháp xử lý văn phạm hình thức, các chiến lược và thuật toán phân tích cú pháp trên máy tính. \n- Đối với hệ Cử nhân Tài năng: Sinh viên được tăng cường các bài tập lý thuyết và bài tập thực hành nâng cao của môn Ngôn ngữ học máy tính."
+    },
+    {
+      "course_id": "CS229",
+      "course_name": "Ngữ nghĩa học tính toán",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "CS221"
+      ],
+      "description": "Môn học nhằm mục tiêu cung cấp cho sinh viên những kiến thức và kỹ năng trong việc sử dụng các phương pháp, kỹ thuật phân tích và tính toán ngữ nghĩa. Nội dung môn học tập trung vào vấn đề xử lý ngữ nghĩa của các câu và văn bản. \n- Đối với hệ Cử nhân Tài năng: Sinh viên được tăng cường các bài tập lý thuyết và bài tập thực hành về các phương pháp và kỹ thuật nâng cao trong xử lý ngữ nghĩa..."
+    },
+    {
+      "course_id": "CS231",
+      "course_name": "Nhập môn Thị giác máy tính",
+      "credits": 4,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Vision"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này giới thiệu các nội dung căn bản trong ngành Thị giác máy tính, bao gồm các chủ đề về low-level computer vision và mid-level computer vision. Các chủ đề cụ thể gồm: rút trích và khai thác thông tin trên ảnh, các loại đặc trưng thị giác cấp thấp và phương pháp biểu diễn đặc trưng thị giác cấp thấp, các kĩ thuật so khớp ảnh, các kĩ thuật phân đoạn ảnh, phương pháp theo vết (tracking)."
+    },
+    {
+      "course_id": "CS232",
+      "course_name": "Tính toán đa phương tiện",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Data Science",
+        "Mathematics",
+        "Multimedia"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này cung cấp kiến thức nền tảng về tính toán, xử lý dữ liệu đa phương tiện (hình ảnh, video, âm thanh) và các ứng dụng, công nghệ đa phương tiện. Các chủ đề chính bao gồm: media characteristics, multimedia representation, data formats, compression, multimedia technology, multimedia computing applications."
+    },
+    {
+      "course_id": "CS311",
+      "course_name": "Kỹ thuật lập trình trí tuệ nhân tạo",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT003"
+      ]
+    },
+    {
+      "course_id": "CS312",
+      "course_name": "Hệ thống đa tác tử",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "CS110"
+      ],
+      "description": "Môn học cung cấp một số kiến thức về Công nghệ đa tác tử. Nội dung chính gồm: \no Các khái niệm về tác tử và hệ thống đa tác tử. \no Các hoạt động trong hệ thống đa tác tử. \no Công nghệ về hệ thống đa tác tử - JADE. \no Ứng dụng của tác tử trong một số lĩnh vực."
+    },
+    {
+      "course_id": "CS313",
+      "course_name": "Khai thác dữ liệu và ứng dụng",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "AI",
+        "Data Mining",
+        "Machine Learning"
+      ],
+      "prerequisites": [
+        "CS114"
+      ],
+      "description": "Môn học giới thiệu các kỹ thuật khai thác dữ liệu và ứng dụng trong thực tế"
+    },
+    {
+      "course_id": "CS314",
+      "course_name": "Lập trình symbolic trong trí tuệ nhân tạo",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics",
+        "Network",
+        "Symbolic Programming"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này giới thiệu về lập trình tính toán hình thức thông qua ngôn ngữ lập trình Maple; Giới thiệu về các lệnh thường dùng các kiểu cấu trúc dữ liệu trong Maple; Ứng dụng lập trình tính toán trong việc trong việc thiết kế các thuật giải heuristic, xây dựng mạng tính toán trong Trí tuệ nhân tạo."
+    },
+    {
+      "course_id": "CS315",
+      "course_name": "Máy học nâng cao",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "CS110"
+      ],
+      "description": "Môn học cung cấp một số kiến thức nâng cao của kiến thức về Máy học. Nội dung chính gồm: Giới thiệu một số thuật toán máy học nâng cao hiện đang được nghiên cứu và sử dụng như: thuật toán SVM (Support Vector Machine), PageRank (Weight PageRank, LpageRank, …), mô hình Markov ẩn."
+    },
+    {
+      "course_id": "CS316",
+      "course_name": "Các hệ giải bài toán thông minh",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Trình bày về tiêu chuẩn và cấu trúc của hệ giải bài toán thông minh như là một lớp hệ chuyên gia, phương pháp và kỹ thuật dùng thiết kế hệ giải bài toán thông minh. Khảo sát những vấn đề kĩ thuật đặc thù của hệ IPS. Vận dụng lý thuyết để xây dựng các hệ IPS thực tế. Môn học cũng giới thiệu một số ứng dụng cụ thể."
+    },
+    {
+      "course_id": "CS317",
+      "course_name": "Phát triển và vận hành hệ thống máy học",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "CS114"
+      ]
+    },
+    {
+      "course_id": "CS321",
+      "course_name": "Ngôn ngữ học ngữ liệu",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT001"
+      ],
+      "description": "Ngữ liệu là tập hợp dữ liệu ngôn ngữ được lưu trữ trên máy tính nhằm phục vụ cho các nghiên cứ về xử lý ngôn ngữ tự nhiên trên máy tính. Mục tiêu của ngôn ngữ học ngữ liệu là giới thiệu các khía cạnh nghiên cứu của ngữ liệu nhằm phục vụ cho các bài toán trong xử lý ngôn ngữ tự nhiên cũng như các lĩnh vực liên quan như nghiên cứu ngôn ngữ, giảng dạy ngoại ngữ."
+    },
+    {
+      "course_id": "CS323",
+      "course_name": "Các hệ thống hỏi-đáp",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "CS221"
+      ],
+      "description": "Môn học cung cấp kiến thức cơ bản thuộc hướng nghiên cứu Question Answering trong xử lý ngôn ngữ tự nhiên gồm: phương pháp phân tích câu hỏi, phương pháp phân tích tài liệu văn bản đề xác định câu trả lời, mô hình các hệ thống hỏi-đáp, phương pháp đánh giá một hệ thống hỏi-đáp."
+    },
+    {
+      "course_id": "CS324",
+      "course_name": "Máy học trong xử lý ngôn ngữ tự nhiên",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "CS221"
+      ],
+      "description": "Máy học là một trong những công cụ quan trọng thường được sử dụng trong các nghiên cứu về xử lý ngôn ngữ tự nhiên. Do đó, môn học này nhằm cung cấp cho sinh viên một số kiến thức nền tảng về các phương pháp máy học thường được sử dụng trong xử lý ngôn ngữ tự nhiên."
+    },
+    {
+      "course_id": "CS325",
+      "course_name": "Dịch máy",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "CS221"
+      ],
+      "description": "Dịch máy, là một lĩnh vực thuộc ngôn ngữ học máy tính nghiên cứu về phần mềm máy tính dịch văn bản hoặc tiếng nói từ một ngôn ngữ tự nhiên sang một ngôn ngữ khác. Ở mức độ căn bản, MT chỉ đơn thuần thay thế các từ trong một ngôn ngữ tự nhiên sang các từ thuộc ngôn ngữ khác. Với kỹ thuật ngữ liệu thì chúng ta có thể dịch được những văn bản phức tạp hơn, cho phép xử lý tốt hơn với các loại hình ngôn ngữ khác nhau, nhận dạng cụm từ, thành ngữ."
+    },
+    {
+      "course_id": "CS331",
+      "course_name": "Thị giác máy tính nâng cao",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "CS231"
+      ],
+      "description": "Môn học này cung cấp khối kiến thức nâng cao trong chuyên ngành Thị giác máy tính, tập trung vào các vấn đề khai thác nội dung ảnh và video. Chủ đề được giới thiệu bao gồm: các phương pháp khai thác đặc trưng cấp cao, đặc trưng ngữ nghĩa, khai thác thông tin ngữ cảnh và mối liên hệ về không gian trong ảnh và video. Các bài toán chính bao gồm: video/image classification, image annotation, object detection, object recognition."
+    },
+    {
+      "course_id": "CS332",
+      "course_name": "Máy học trong Thị giác Máy tính",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này tập trung vào việc giới thiệu các giải pháp kĩ thuật nhằm ứng dụng các phương pháp máy học vào một số bài toán quan trọng trong ngành Thị giác máy tính, như: object detection (face detection, pedestrian detection), recognition (object categorization, fine-graned recognition), semantic analysis and indexing."
+    },
+    {
+      "course_id": "CS333",
+      "course_name": "Đồ họa game",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Game Development"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này giới thiệu thiệu các kỹ thuật, phương pháp và cách thức sử dụng phần mềm, công cụ lập trình đồ họa cho video game. Sinh viên được truyền đạt các kiến thức cập nhật và hiện đại nhất nhằm tiếp cận nhu cầu nhân lực của các đơn vị sản xuất video game"
+    },
+    {
+      "course_id": "CS336",
+      "course_name": "Truy vấn thông tin đa phương tiện",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Xây dựng ngôn ngữ lập trình, các kiểu thực thi chương trình. Cấu trúc định nghĩa ngôn ngữ lập trình. Các cấu trúc điều khiển và các mô hình lập trình luồng dữ liệu."
+    },
+    {
+      "course_id": "CS337",
+      "course_name": "Xử lý âm thanh và tiếng nói",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Speech Processing"
+      ],
+      "prerequisites": [
+        "IT003"
+      ],
+      "description": "Môn học này giới thiệu kiến thức nền tảng về xử lý tín hiệu số, trong đó đặc biệt là tín hiệu âm thanh và tiếng nói. Các chủ đề bao gồm: acoustic modeling, linear prediction, homomorphic processing, Time-Frequency analysis, auditory, fundamental speech recognition and synthesis."
+    },
+    {
+      "course_id": "CS338",
+      "course_name": "Nhận dạng",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics",
+        "Network"
+      ],
+      "prerequisites": [],
+      "description": "Môn này cung cấp khối kiến thức cơ bản trong lĩnh vực Nhận dạng bao gồm các thuật toán nhận dạng có tham số và phi tham số như: SVM, Mạng Neural Network, Mô Hình Markov Ẩn, Maximum Likelihood, K-Nearest Neighbor, K-Mean. Sinh viên có thể cài đặt được một số thuật toán cho bài toán nhận dạng với dữ liệu đặc trưng rút trích từ các dữ liệu thực tế"
+    },
+    {
+      "course_id": "CS405",
+      "course_name": "Logic mờ và ứng dụng",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Logic",
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Lý thuyết mờ là một công cụ quan trọng trong giải quyết các vấn để thuộc về tính toán mềm trong ngành Khoa học Máy tính và các chuyên ngành kỹ thuật khác. Môn học có 2 mục tiêu: trang bị các kiến thức cơ bản của Lý thuyết mờ và một số ứng dụng lý thuyết mờ."
+    },
+    {
+      "course_id": "CS406",
+      "course_name": "Xử lý ảnh và ứng dụng",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này nhằm cung cấp cho sinh viên những kiến thức nền tảng của xử lý ảnh cũng như kĩ thuật để xây dựng những hệ thống thông tin dựa trên ảnh."
+    },
+    {
+      "course_id": "CS409",
+      "course_name": "Hệ suy diễn mờ",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Logic"
+      ],
+      "prerequisites": [],
+      "description": "Môn học có nội dung bao gồm 2 phần. Phần lý thuyết trình bày các công cụ của Lý thuyết mờ như lý thuyết tập mờ, logic mờ. Phần ứng dụng bao gồm các ứng dụng Logic mờ trong matlab, Dư báo chuỗi thời gian, Ontology mờ, Điều khiển mờ"
+    },
+    {
+      "course_id": "CS410",
+      "course_name": "Mạng neural và thuật giải di truyền",
+      "credits": 4,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Network"
+      ],
+      "prerequisites": [
+        "IT003"
+      ],
+      "description": "môn học cung cấp kiến thức nền tảng chuyên sâu về mạng nơ-ron và thuật giải di truyền. Bên cạnh đó, giới thiệu các ứng dụng quan trọng của mạng nơ-ron và thuật giải di truyền"
+    },
+    {
+      "course_id": "CS412",
+      "course_name": "Web ngữ nghĩa",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Data Science",
+        "Web Development"
+      ],
+      "prerequisites": [
+        "CS221"
+      ],
+      "description": "web ngữ nghĩa là một vấn đề trong lĩnh vực xử lý ngôn ngữ tự nhiên nói riêng và chuyên ngành trong lĩnh vực ứng dụng trí tuệ nhân tạo nói chung. Web ngữ nghĩa chuyên về xây dựng các hệ thống web với mức độ tri thức cao trên nền tảng các hệ cơ sở tri thức (ontology) và dữ liệu có cấu trúc, dữ liệu liên kết (linked data), ngôn ngữ truy vấn cơ sở dữ liệu liên kết."
+    },
+    {
+      "course_id": "CS419",
+      "course_name": "Truy xuất thông tin",
+      "credits": 4,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "CS114"
+      ],
+      "description": "Môn học giới thiệu những kiến thức căn bản trong lĩnh vực truy xuất thông tin, bao gồm: các mô hình truy xuất thông tin, các phương pháp lập chỉ mục, mô hình không gian véc-tơ và phương pháp đánh giá mô hình truy xuất thông tin.Ngoài ra, sinh viên được hướng dẫn để thực hiện một đồán môn học. Mục đích: Môn học cung cấp cho sinh viên những kiến thức cơ sở trong lĩnh vực truy xuất thông tn, từ đó sinh viên có khả năng triển khai, dưới sự hướng dẫn của giảng viên, một đồán môn học dựa trên những kiến thức đã được học"
+    },
+    {
+      "course_id": "CS420",
+      "course_name": "Các vấn đề chọn lọc trong Thị giác máy tính",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "CS231"
+      ],
+      "description": "Môn học này có nội dung linh hoạt, chủ yếu tập trung vào các chủ đề, bài toán mới nhất trong lĩnh vực Thị giác máy tính."
+    },
+    {
+      "course_id": "CS431",
+      "course_name": "Các kĩ thuật học sâu và ứng dụng",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Deep Learning",
+        "Mathematics",
+        "Network"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT002"
+      ],
+      "description": "Môn này cung cấp các kiến thức cơ bản trong lĩnh vực máy học đồng thời tiếp cận các hướng tiếp cận máy học hiện đại như thuật toán học sâu (Deep Learning). Qua môn học này sinh viên có thể cài đặt được thuật toán huấn luyện Gradient Descend để huấn luyện mạng Neural Network(NN), hiểu được kiến trúc mạng Convolutional Neural Network(CNN) cho bài toán phân loại đối tượng, huấn luyện lại mạng CNN cho dữ liệu mới và một số ứng dụng của mạng CNN trong một số bài toán như nhận dạng gương mặt, phát hiện đối tượng, truy vấn đối tượng."
+    },
+    {
+      "course_id": "CS505",
+      "course_name": "Khoá luận tốt nghiệp",
+      "credits": 10,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "CS519",
+      "course_name": "Phương pháp luận nghiên cứu khoa học",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Môn học hướng về việc trang bị cho sinh viên những kiến thức cơ bản về khoa học và nghiên cứu khoa học nhằm mục đích nâng cao chất lượng của các đề cương và các luận văn tốt nghiệp. Qua các thí dụ cụ thể, các tiến trình trong nghiên cứu khoa học được bổ sung bởi những mô hình và lý thuyết để bồi dưỡng cho sinh viên về phương pháp thực dụng trong nghiên cứu khoa học: cách đặt vấn đề khoa học; phương pháp giải quyết các bài toán trong tin học; áp dụng các thủ thuật sáng tạo trong các bài toán tin học; các phương pháp suy luận, tư duy giả thuyết khoa học; cách viết bài báo khoa học, và sau cùng là các vấn đề liên quan đến đạo đức của người làm khoa học."
+    },
+    {
+      "course_id": "CS523",
+      "course_name": "Cấu trúc dữ liệu và giải thuật nâng cao",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Programming"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT003"
+      ],
+      "description": "Trình bày các phương pháp tổ chức và những thao tác cơ sở trên các cấu trúc dữ liệu phức tạp, được xây dựng trên nền các cấu trúc dữ liệu cơ sở. Các giải thuật kết hợp với các cấu trúc dữ liệu để hình thành nên chương trình máy tính. Ngon ngữ lập trình được sử dụng là các ngôn ngữ lập trình cấp cao như: C/C++, Python, ..."
+    },
+    {
+      "course_id": "CS526",
+      "course_name": "Phát triển ứng dụng đa phương tiện trên thiết bị di động",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT002",
+        "IT003"
+      ]
+    },
+    {
+      "course_id": "CS527",
+      "course_name": "Thực tại ảo",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này giới thiệu các khái niệm và mô hình cơ bản của ứng dụng thực tại ảo, các giải pháp tích hợp thông ảo, các công cụ phát triển ứng dụng thực tại ảo."
+    },
+    {
+      "course_id": "CS528",
+      "course_name": "Trực quan hóa thông tin",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Data Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này giới thiệu kiến thức nền tảng và ứng dụng của trực quan hóa thông tin. Các chủ đề bao gồm: visual encoding, data and task abstraction, visual representation, dimensionality reduction, tabular data, trees and graphs presentation"
+    },
+    {
+      "course_id": "CS529",
+      "course_name": "Các vấn đề nghiên cứu và ứng dụng trong khoa học máy tính",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "CS532",
+      "course_name": "Thị giác máy tính trong tương tác người-máy",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này giới thiệu các hướng tiếp cận về tương tác người-máy dựa trên các phương pháp, kĩ thuật thị giác máy tính. Trong đó, tập trung vàocác phương pháp phân tích, nhận dạng cử chỉ, hành động, biểu cảm khuôn mặt của người điều khiển thông qua hình ảnh và video (bao gồm cả video 2D thông thường và video độ sâu)."
+    },
+    {
+      "course_id": "CS535",
+      "course_name": "Tổng hợp tiếng nói",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Speech Processing"
+      ],
+      "prerequisites": [
+        "CS114",
+        "CS221"
+      ],
+      "description": "Tiếng nói là phương tiện giao tiếp tự nhiên nhất trong trao đổi và tiếp nhận thông tin hàng ngày giữa người với người. Trong môn học này, các kỹ thuật và mô hình học trong xử lý ngôn ngữ nói được trình bày thông qua các lý thuyết nền tảng về nhận dạng tiếng nói (Speech Recognition), tổng hợp tiếng nói (Speech Synthesis) và các hệ thống giao tiếp giữa người và máy qua tiếng nói (Dialog)"
+    },
+    {
+      "course_id": "CS551",
+      "course_name": "Thực tập",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "CS553",
+      "course_name": "Chuyên đề tốt nghiệp",
+      "credits": 10,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Tốt nghiệp",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Chuyên đề tốt nghiệp (6 TC) + 1 môn chuyên ngành bổ sung (4 TC)"
+    },
+    {
+      "course_id": "CS554",
+      "course_name": "Đồ án tốt nghiệp tại doanh nghiệp",
+      "credits": 10,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "DS102",
+      "course_name": "Học máy thống kê",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học nhằm cung cấp cho sinh viên những kiến thức nền tảng và nâng cao về học máy, đặc biệt là học máy thống kê, học từ dữ liệu như: phân tích dữ liệu thống kê, các phương pháp chọn mẫu dữ liệu, hồi qui tuyến tính, logistics, các phương pháp học có giám sát, không giám sát. Thêm vào đó, người học cũng được trang bị kiến thức liên quan những khó khăn khi học từ dữ liệu: không cân bằng dữ liệu, quá khớp, nhiễu. Thông qua những ví dụ thực tế, người học dễ dàng nắm bắt những kiến thức về học máy thống kê và dễ dàng áp dụng những phương pháp học máy thống kê vào những lĩnh vực ứng dụng khác nhau"
+    },
+    {
+      "course_id": "DS103",
+      "course_name": "Thu thập và tiền xử lý dữ liệu",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Web Development"
+      ],
+      "prerequisites": [],
+      "description": "Môn học cung cấp những cách thức để thu thập và xử lý dữ liệu nhằm phục vụ cho những mục đích sử dụng dữ liệu về sau. Môn học trình bày những điều cơ bản cần thiết để thu thập dữ liệu bao gồm lấy dữ liệu thô từ web, API, cơ sở dữ liệu và từ các nguồn khác nhau ở những định dạng khác nhau, làm sạch dữ liệu và làm cho dữ liệu mang tính sẵn sàng để chia sẻ. Dữ liệu sẵn sàng sẽ đem lại hiệu quả đáng kể trong phân tích dữ liệu."
+    },
+    {
+      "course_id": "DS200",
+      "course_name": "Phân tích dữ liệu lớn",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Môn học nhằm cung cấp cho sinh viên những kiến thức nền tảng, một bức tranh tổng quan về lĩnh vực dữ liệu lớn. Môn học là nền tảng cho khoa học và công nghệ dữ liệu. Bên cạnh đó, môn học giúp sinh viên bước đầu hiểu, tư duy về việc tạo ra những ứng dụng, bài toán thực tế về dữ liệu lớn. Đồng thời, giúp sinh viên làm quen với Hadoop framework, một nền tảng cơ bản giúp xử lý, phân tích dữ liệu lớn một cách dễ dàng."
+    },
+    {
+      "course_id": "DS201",
+      "course_name": "Deep Learning trong khoa học dữ liệu",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Deep Learning",
+        "Network"
+      ],
+      "prerequisites": [
+        "DS102"
+      ],
+      "description": "Môn học cung cấp các kiến thức vé ứng dụng học sâu trong khoa học dữ liệu. Môn học trìng bày khái quát về học sâu và ứng dụng học sâu trong khoa học dữ liệu. Cách dùng học sâu đề khám phá biểu diễn các loại dữ liệu có cấu trúc và phi cấu trúc như văn bản, hình ảnh, dữ liệu chuỗi thời. Các kiến thức về học sâu có giám sát, các phương pháp học sâu: convolutional networks and recurrent networks. Lý thuyết và kinh nghiệm để huấn luyện các mô hình học sâu bao gồm tối ưu hóa bằng cách sử dụng gradient giảm. Các ví dụ ứng dụng về học sâu cho khoa học dữ liệu trong các lĩnh vực phân tích văn bản, dự báo chuỗi thời gian, xử lý dữ liệu ảnh."
+    },
+    {
+      "course_id": "IS211",
+      "course_name": "Cơ sở dữ liệu phân tán",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT004",
+        "IT005"
+      ],
+      "description": "Môn học cung cấp các kiến thức về nguyên lý thiết kế cơ sở dữ liệu phân tán, quản lý giao tác, điều khiển tương tranh và phục hồi dữ liệu... Trên cơ sở này, người học có thể nắm vững phương pháp thiết kế cơ sở dữ liệu phân tán, giải quyết được vấn đề về quản lý giao dịch, đặc trưng và các tính chất giao dịch. Cũng như, hiểu được các thuật toán điều khiển tương tranh, phục hồi dữ liệu nhằm ứng dụng vào thực tế và nghiên cứu. Đồng thời vận dụng được kỹ thuật xử lý phân tán và cách triển khai CSDL phân tán bằng Oracle/MS SQL Server."
+    },
+    {
+      "course_id": "IS403",
+      "course_name": "Phân tích dữ liệu kinh doanh",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT004",
+        "MA005"
+      ],
+      "description": "Môn học nhằm cung cấp các kỹ thuật phân tích dữ liệu cần thiết cho việc thực hiện phân tích dữ liệu trong nghiên cứu, các dữ liệu trong kinh doanh. Sinh viên được trang bị kiến thức kiến thức nền tảng của các công thức toán học cần thiết, từ các tình huống gần gũi trong thực tế, dưới dạng các ứng dụng trong kinh doanh,thực hành trên các phần mềm EVIEWS, SPSS…"
+    },
+    {
+      "course_id": "IT001",
+      "course_name": "Nhập môn lập trình",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Môn học sẽ cung cấp các kiến thức nền tảng về máy tính, tư duy và các kỹ năng \ncăn bản lập trình cho tất cả sinh viên các ngành Công nghệ thông tin. \nĐối với hệ tài năng: sinh viên sẽ được trang bị các kiến thức nâng cao về tư duy \nvà các kỹ năng lập trình thông qua một số bài toán có độ phức tạp cao."
+    },
+    {
+      "course_id": "IT002",
+      "course_name": "Lập trình hướng đối tượng",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT001"
+      ],
+      "description": "Môn học trang bị cho sinh viên kiến thức và kỹ năng về lập trình hướng đối tượng, các nguyên lý cơ bản của thiết kế hướng đối tượng, các vấn đề căn bản và một số vấn đề nâng cao trong việc cài đặt các lớp và phương thức. Các quan niệm nằm sau cây thừa kế, đa hình, các tính chất của đối tượng, thừa kế và phân lớp. Cách thức trao đổi và truyền thông giữa các đối tượng."
+    },
+    {
+      "course_id": "IT003",
+      "course_name": "Cấu trúc dữ liệu và giải thuật",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT001"
+      ],
+      "description": "Môn học giúp sinh viên hiểu tầm quan trọng của giải thuật và cách tổ chức dữ \nliệu, là hai thành tố quan trọng nhất cho một chương trình. Nắm bắt, áp dụng \nđược các giải thuật, cấu trúc dữ liệu thường được áp dụng trong việc giải quyết \nbài toán trong tin học. Giúp củng cố và phát triển kỹ năng lập trình vừa được học \ntrong môn học trước."
+    },
+    {
+      "course_id": "IT004",
+      "course_name": "Cơ sở dữ liệu",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học trình bày về sự cần thiết của cơ sở dữ liệu trong doanh nghiệp và trong các loại hình tổ chức khác. Cung cấp sự hiểu biết về nguyên lý của các hệ thống cơ sở dữ liệu, tập trung trên CSDL quan hệ (mô hình dữ liệu quan hệ, các ngôn ngữ truy vấn). \nSinh viên có khả năng sử dụng các kỹ thuật, công cụ để có thể thiết kế, thao tác với \nmột CSDL quan hệ thông qua hệ quản trị CSDL cụ thể (MS SQL Server), phục vụ cho nhiều môn học nâng cao về CSDL trong những học kỳ kế tiếp."
+    },
+    {
+      "course_id": "IT005",
+      "course_name": "Nhập môn mạng máy tính",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Network"
+      ],
+      "prerequisites": [],
+      "description": "Cung cấp cho sinh viên những khái niệm cơ bản về mạng máy tính và truyền dữ liệu trên mạng; các dịch vụ mạng cơ bản, kỹ thuật mạng không dây."
+    },
+    {
+      "course_id": "IT007",
+      "course_name": "Hệ điều hành",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Giới thiệu các khái niệm, các nguyên lý hoạt động cơ bản trong hệ điều hành đi theo trình tự từ đơn giản đến phức tạp. Môn học gồm có 8 chương ứng với các khối kiến thức sau: tổng quan về hệ điều hành, cấu trúc hệ điều hành, quản lý tiến trình, định thời CPU, đồng bộ hóa tiến trình, tắc nghẽn (deadlocks), quản lý bộ nhớ và bộ nhớ ảo. Kết thúc phần lý thuyết của từng khối kiến thức sẽ là các bài thực hành trong phòng lab để có cái nhìn thực tế hơn về các khái niệm, các giải thuật đã được giới thiệu"
+    },
+    {
+      "course_id": "IT012",
+      "course_name": "Tổ chức và Cấu trúc Máy tính II",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Môn học này trình bày kiến thức cơ bản về kiến trúc máy tính bao gồm: \n- Lịch sử hình thành và các công nghệ liên quan đến phát triển máy tính. \n- Chức năng và nguyên lý hoạt động của các bộ phận trong máy tính. \n- Cách biểu diễn dữ liệu, tính toán trong máy tính. \n- Cách phân tích các mạch số cơ bản. \n- Kiến trúc bộ lệnh, lập trình hợp ngữ. \n-Các vấn đề liên quan tới nguyên lý hoạt động của bộ xử lý."
+    },
+    {
+      "course_id": "MA003",
+      "course_name": "Đại số tuyến tính",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Đại số tuyến tính là môn học ở giai đoạn kiến thức đại cương, là môn học bắt buộc đối với tất cả sinh viên. Môn học này giúp cho sinh viên nắm được khái niệm và làm được các phép toán về: ma trận, hạng, định thức, hệ phương trình tuyến tính; cách giải hệ phương trình tuyến tính bằng phương pháp Cramer, phương pháp Gauss, phương pháp Gauss-Jordan; về không gian vector, sự phụ thuộc, độc lập tuyến tính, tập sinh, cơ sở và số chiều của không gian vector; ma trận chéo hóa và ý nghĩa của việc chéo hóa ma trận; về ánh xạ tuyến tính, toán tử tuyến tính, dạng toàn phương và phép đưa dạng toàn phương về dạng chính tắc; để từ đó SV có thể tiếp tục học tập những môn chuyên ngành, hay phục vụ cho quá trình làm khóa luận tốt nghiệp."
+    },
+    {
+      "course_id": "MA004",
+      "course_name": "Cấu trúc rời rạc",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Logic",
+        "Mathematics"
+      ],
+      "prerequisites": [],
+      "description": "Cấu trúc rời rạc là môn học ở giai đoạn kiến thức đại cương, là môn học bắt buộc đối với tất cả sinh viên. Đây là một trong những môn thi tuyển sinh đầu vào ở bậc Sau đại học ngành công nghệ thông tin. Môn học này giúp cho sinh viên có kiến thức, có kỹ năng giải quyết được những bài toán liên quan đến Toán rời rạc (cơ sở logic, các phương pháp đếm, quan hệ, đại số Bool và hàm Bool), và Lý thuyết đồ thị (các khái niệm cơ bản về lý thuyết đồ thị, đường đi, chu trình và cây)."
+    },
+    {
+      "course_id": "MA005",
+      "course_name": "Xác suất thống kê",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "MA006"
+      ],
+      "description": "Xác suất thống kê là môn học bắt buộc (hoặc tự chọn) của sinh viên một số ngành thuộc lĩnh vực công nghệ thông tin. Đây là một trong những môn thi tuyển sinh đầu vào ở bậc Sau đại học ngành Khoa học máy tính. Môn học này trình bày các khái niệm và phương pháp về: Lý thuyết xác suất (Không gian xác suất; Biến ngẫu nhiên; Hàm đăc trưng; Dãy các biến ngẫu nhiên; Các quy luật phân phối xác suất; Các định lý giới hạn phân phối xác suất) và Thống kê (Mẫu ngẫu nhiên; Ước lượng điểm và ước lượng khoảng; Kiểm định các giả thiết thống kê; Phân tích tương quan và hồi quy; Một số vấn đề về quá trình ngẫu nhiên). Ngoài ra, môn học này còn giới thiệu về cách thức nhận diện, phân tích và xử lý một vấn đề thực tế; xử lý các số liệu thống kê; để từ đó giúp cho người dùng đưa ra các suy luận phù hợp (nhằm hỗ trợ cho quá trình ra quyết định)."
+    },
+    {
+      "course_id": "MA006",
+      "course_name": "Giải tích",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn Giải tích là môn học ở giai đoạn kiến thức đại cương, là môn học bắt buộc đối với tất cả sinh viên. Môn học này giúp cho SV có kiến thức cơ bản về phép tính vi phân hàm nhiều biến; phép tính tích phân hàm nhiều biến (tích phân bội); tích phân đường, tích phân mặt; cũng như là kỹ năng khảo sát chuỗi số, chuỗi hàm, tích phân suy rộng,…cùng với việc nhận dạng và giải quyết một số phương trình vi phân cấp một, cấp cao,…để từ đó SV có thể tiếp tục học tập những môn chuyên ngành, hay phục vụ cho quá trình làm khóa luận tốt nghiệp."
+    },
+    {
+      "course_id": "ME001",
+      "course_name": "Giáo dục quốc phòng",
+      "credits": 0,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học trang bị cho học sinh, sinh viên những hiểu biết cơ bản về nền quốc phòng toàn dân, an ninh nhân dân, quan điểm của Đảng, chính sách, pháp luật của nhà nước về quốc phòng và an ninh; truyền thống chống ngoại xâm của dân tộc, lực lượng vũ trang nhân dân và nghệ thuật quân sự Việt Nam; xây dựng nền quốc phòng toàn dân, an ninh nhân dân, lực lượng vũ trang nhân dân; có kiến thức cơ bản, cần thiết về phòng thủ dân sự, kỹ năng quân sự; sẵn sàng thực hiện nghĩa vụ quân sự bảo vệ Tổ quốc."
+    },
+    {
+      "course_id": "NT538",
+      "course_name": "Giải thuật xử lý song song và phân bố",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics"
+      ],
+      "prerequisites": [
+        "IT005"
+      ],
+      "description": "Trong môn học này, sinh viên sẽ được trang bị kiến thức nền tảng về các giải thuật song song và phân bố. Cụ thể hơn, môn học trình bày về kiến trúc hệ thống cũng như cơ chế vận hành của các giải thuật song song và phân bố phổ biến nhất hiện nay. Trong suốt quá trình học, các khái niệm này sẽ được mô tả thông qua các ví dụ và bài toán thực tế."
+    },
+    {
+      "course_id": "NT539",
+      "course_name": "AI ứng dụng trong mạng và truyền thông",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Mathematics",
+        "Network"
+      ],
+      "prerequisites": [
+        "IT005"
+      ],
+      "description": "Môn học cung cấp những khái niệm tổng quan và kiến thức nền tảng về trí tuệ nhân tạo (AI). Môn học cũng trình bày chi tiết về ứng dụng của AI vào trong mạng máy tính và truyền thông thông qua các bài toán triển khai trong thực tế hiện nay. Trong suốt quá trình học, các kiến thức lý thuyết luôn đi song song với các bài thực hành dưới dạng các trường hợp thực tế (use-cases )"
+    },
+    {
+      "course_id": "PE231",
+      "course_name": "Giáo dục thể chất 1",
+      "credits": 0,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": []
+    },
+    {
+      "course_id": "PE232",
+      "course_name": "Giáo dục thể chất 2",
+      "credits": 0,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "PE231"
+      ]
+    },
+    {
+      "course_id": "SE104",
+      "course_name": "Nhập môn Công nghệ phần mềm",
+      "credits": 4,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT002",
+        "IT004"
+      ],
+      "description": "Môn học này nhằm cung cấp cho các sinh viên các kiến thức cơ sở liên quan đến các đối tượng chính yếu trong lĩnh vực công nghệ phần mềm (qui trình công nghệ, phương pháp kỹ thuật thực hiện, phương pháp tổ chức quản lý, công cụ và môi trường triển khai phần mềm, …). Giúp sinh viên hiểu và biết tiến hành xây dựng phần mềm một cách có hệ thống, có phương pháp. Trong quá trình học, sinh viên sẽ được giới thiệu nhiều phương pháp khác nhau để có được góc nhìn tổng quan về các phương pháp. Và để minh họa cụ thể hơn, phương pháp OMT (Object Modeling Technique) được chọn để trình bày (với một sự lược giản để thích hợp với tính chất nhập môn của môn học)."
+    },
+    {
+      "course_id": "SE113",
+      "course_name": "Kiểm chứng phần mềm",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "SE104"
+      ],
+      "description": "Môn học này trình bày về các kiến thức cơ bản về kiểm chức phần mềm và các kỹ thuật liên quan; và là học phần bắt buộc cho sinh viên công nghệ thông tin trong một học kỳ. Học phần được phân làm 4 phần: phần 1 là các khái niệm liên quan tới kiểm chứng phần mềm; phần 2 là các kĩ thuật kiểm chứng phần mềm; phần 3 là các chiến lược kiểm chứng phần mềm; phần 4 là các vấn đề nâng cao."
+    },
+    {
+      "course_id": "SE357",
+      "course_name": "Kỹ thuật phân tích yêu cầu",
+      "credits": 3,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "SE104"
+      ],
+      "description": "Đây là môn học chuyên ngành Công Nghệ Phần Mềm nhằm trang bị cho sinh viên: \n- Kiến thức cơ bản về yêu cầu phần mềm và ảnh hưởng của yêu cầu tới toàn bộ dự án phát triển phần mềm. \n- Kỹ thuật khai phá và thu thập yêu cầu phần mềm. \n- Quy trình phân tích yêu cầu phần mềm và đánh giá chất lượng yêu cầu. \n- Thực hành việc khai thác và thu thập yêu cầu cho dự án công nghệ phần mềm"
+    },
+    {
+      "course_id": "SE358",
+      "course_name": "Quản lý dự án Phát triển Phần mềm",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Chuyên ngành",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "SE104"
+      ]
+    },
+    {
+      "course_id": "SS003",
+      "course_name": "Tư tưởng Hồ Chí Minh",
+      "credits": 2,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Network"
+      ],
+      "prerequisites": [],
+      "description": "Môn học trang bị cho sinh viên tư tưởng Hồ Chí Minh về các vấn đề cơ bản của cách mạng Việt Nam, từ cách mạng dân tộc dân chủ nhân dân đến cách mạng xã hội chủ nghĩa như: Tư tưởng Hồ Chí Minh về vấn đề dân tộc và cách mạng giải phóng dân tộc; về chủ nghĩa xã hội và con đường quá độ lên chủ nghĩa xã hội; về Đảng Cộng sản Việt Nam; về đại đoàn kết dân tộc và đoàn kết quốc tế; về xây dựng nhà nước của dân, do dân và vì dân; về văn hóa, đạo đức và xây dựng con người mới."
+    },
+    {
+      "course_id": "SS004",
+      "course_name": "Kỹ năng nghề nghiệp",
+      "credits": 2,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học cung cấp các kiến thức về các kỹ năng hỗ trợ trong lĩnh vực CNTT. Các kỹ năng này gồm kỹ năng giao tiếp, kỹ năng làm việc nhóm, kỹ năng tư duy, kỹ năng quản lý thời gian và kỹ năng thuyết trình. Nội dung môn học hướng sinh viên tới việc tìm hiểu và thực hành các kỹ năng này. Sinh viên sẽ có những kiến thức và kỹ năng ở mức độ cơ bản để có thể đáp ứng các yêu cầu học tập và làm việc trong ngành CNTT"
+    },
+    {
+      "course_id": "SS006",
+      "course_name": "Pháp luật đại cương",
+      "credits": 2,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học nằm trong khối kiến thức đại cương trong chương trình đào tạo. Môn học hướng đến việc trang bị những kiến thức nền tảng về nhà nước và pháp luật cho người học. Qua đó, người học có những kiến thức cơ bản về nhà nước và pháp luật hướng đến việc hình thành kỹ năng sống và thái độ sống chuẩn mực theo hiến pháp và pháp luật."
+    },
+    {
+      "course_id": "SS007",
+      "course_name": "Triết học Mác – Lênin",
+      "credits": 3,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học trang bị cho sinh viên những kiến thức cơ bản về Triết học Mác – Lênin"
+    },
+    {
+      "course_id": "SS008",
+      "course_name": "Kinh tế chính trị Mác – Lênin",
+      "credits": 2,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học trang bị cho sinh viên những kiến thức cơ bản về Kinh tế chính trị Mác – Lênin"
+    },
+    {
+      "course_id": "SS009",
+      "course_name": "Chủ nghĩa xã hội khoa học",
+      "credits": 2,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học trang bị cho sinh viên những kiến thức cơ bản về Chủ nghĩa xã hội khoa học"
+    },
+    {
+      "course_id": "SS010",
+      "course_name": "Lịch sử Đảng Cộng sản Việt Nam",
+      "credits": 2,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "Computer Science"
+      ],
+      "prerequisites": [],
+      "description": "Môn học trang bị cho sinh viên những kiến thức cơ bản về Lịch sử Đảng Cộng sản Việt Nam"
+    },
+    {
+      "course_id": "AI503",
+      "course_name": "Đồ án tốt nghiệp",
+      "credits": 10,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Tốt nghiệp",
+      "knowledge_area": [
+        "AI"
+      ],
+      "prerequisites": [],
+      "description": "Đồ án tốt nghiệp cho sinh viên ngành Trí tuệ nhân tạo"
+    },
+    {
+      "course_id": "AI504",
+      "course_name": "Đồ án tốt nghiệp tại doanh nghiệp",
+      "credits": 10,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Tốt nghiệp",
+      "knowledge_area": [
+        "AI"
+      ],
+      "prerequisites": [],
+      "description": "Đồ án tốt nghiệp tại doanh nghiệp cho sinh viên ngành Trí tuệ nhân tạo"
+    },
+    {
+      "course_id": "AI505",
+      "course_name": "Khóa luận tốt nghiệp",
+      "credits": 10,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Tốt nghiệp",
+      "knowledge_area": [
+        "AI"
+      ],
+      "prerequisites": [],
+      "description": "Khóa luận tốt nghiệp cho sinh viên ngành Trí tuệ nhân tạo"
+    },
+    {
+      "course_id": "IT008",
+      "course_name": "Lập trình trực quan",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "SE",
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT002"
+      ],
+      "description": "Môn học về lập trình giao diện người dùng với công nghệ .NET/Windows Forms"
+    },
+    {
+      "course_id": "IT009",
+      "course_name": "Phát triển ứng dụng web",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "SE",
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT002"
+      ],
+      "description": "Môn học về phát triển ứng dụng web với HTML/CSS/JavaScript và các framework"
+    },
+    {
+      "course_id": "IT013",
+      "course_name": "Phát triển ứng dụng game",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "SE",
+        "Multimedia",
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT002"
+      ],
+      "description": "Môn học về lập trình và phát triển game với Unity/Unreal Engine"
+    },
+    {
+      "course_id": "IT014",
+      "course_name": "Phát triển ứng dụng di động đa nền tảng",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Cơ sở ngành",
+      "knowledge_area": [
+        "SE",
+        "Computer Science"
+      ],
+      "prerequisites": [
+        "IT001",
+        "IT002"
+      ],
+      "description": "Môn học về phát triển ứng dụng di động với React Native/Flutter"
+    },
+    {
+      "course_id": "ENG01",
+      "course_name": "Anh văn 1",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "General Education"
+      ],
+      "prerequisites": [],
+      "description": "Môn học Anh văn cơ bản 1 cho sinh viên năm nhất",
+      "can_be_exempted": true,
+      "exemption_note": "Có thể được miễn dựa trên chứng chỉ tiếng Anh đầu vào (vẫn tính 4 TC)"
+    },
+    {
+      "course_id": "ENG02",
+      "course_name": "Anh văn 2",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "General Education"
+      ],
+      "prerequisites": [
+        "ENG01"
+      ],
+      "description": "Môn học Anh văn cơ bản 2 cho sinh viên năm hai",
+      "can_be_exempted": true,
+      "exemption_note": "Có thể được miễn dựa trên chứng chỉ tiếng Anh đầu vào (vẫn tính 4 TC)"
+    },
+    {
+      "course_id": "ENG03",
+      "course_name": "Anh văn 3",
+      "credits": 4,
+      "major": [
+        "KHMT",
+        "TTNT"
+      ],
+      "course_group": "Đại cương",
+      "knowledge_area": [
+        "General Education"
+      ],
+      "prerequisites": [
+        "ENG02"
+      ],
+      "description": "Môn học Anh văn cơ bản 3 cho sinh viên năm ba",
+      "can_be_exempted": true,
+      "exemption_note": "Có thể được miễn dựa trên chứng chỉ tiếng Anh đầu vào (vẫn tính 4 TC)"
+    },
+    {
+      "course_id": "CS503",
+      "course_name": "Đồ án tốt nghiệp",
+      "credits": 10,
+      "major": [
+        "KHMT"
+      ],
+      "course_group": "Tốt nghiệp",
+      "knowledge_area": [
+        "Software Engineering"
+      ],
+      "prerequisites": [],
+      "description": "Đồ án tốt nghiệp cho sinh viên ngành Khoa học Máy tính"
+    },
+    {
+      "course_id": "CS504",
+      "course_name": "Đồ án tốt nghiệp tại doanh nghiệp",
+      "credits": 10,
+      "major": [
+        "KHMT"
+      ],
+      "course_group": "Tốt nghiệp",
+      "knowledge_area": [
+        "Software Engineering"
+      ],
+      "prerequisites": [],
+      "description": "Đồ án tốt nghiệp tại doanh nghiệp cho sinh viên ngành Khoa học Máy tính"
+    },
+    {
+      "course_id": "AI553",
+      "course_name": "Chuyên đề tốt nghiệp",
+      "credits": 6,
+      "major": [
+        "TTNT"
+      ],
+      "course_group": "Tốt nghiệp",
+      "knowledge_area": [
+        "AI"
+      ],
+      "prerequisites": [],
+      "description": "Chuyên đề tốt nghiệp (6 TC) + 1 môn chuyên ngành bổ sung (4 TC)"
+    }
+  ]
+}
